@@ -1,22 +1,26 @@
-# Python Tutorium
+# Python Repetitorium
 
-## Downloading the code
+## Willkommen
 
-- **Clone via Git**:
+Willkommen zum Python Repetitorium für das Wintersemester 25/26. In diesem Kurs bearbeiten wir gemeinsam Aufgaben, die dich optimal auf die anstehende Klausur vorbereiten. Bei Fragen kannst du diese gerne im Chat stellen, dich mündlich äußern oder mir eine Nachricht schreiben.
+
+## Über dieses Repository
+
+Dieses Repository enthält Übungsnotebooks und entsprechende Lösungen für das Python Repetitorium. Die Aufgabenordner befinden sich im Verzeichnis `Aufgaben/`, während `Solutions/` die Referenzlösungen bereitstellt.
+
+## Code herunterladen
+
+- **Klonen über Git**:
   ```sh
   git clone <REPO_URL>
   ```
-- **Download ZIP**: Use the “Download ZIP” option from your Git hosting page.
+- **ZIP-Datei herunterladen**: Nutze die Option "Download ZIP" auf der Git-Hosting-Seite.
 
-## Exercises
+## Aufgabenübersicht
 
-- **Aggregation and Dispatch**: [Aufgaben/Aggregation_and_Dispatch/](Aufgaben/Aggregation_and_Dispatch/)
+- **Aggregation und Dispatch**: [Aufgaben/Aggregation_and_Dispatch/](Aufgaben/Aggregation_and_Dispatch/)
 - **Apportionment**: [Aufgaben/Apportionment/](Aufgaben/Apportionment/)
-- **Fractions**: [Aufgaben/Fractions/](Aufgaben/Fractions/)
-- **Prime Numbers**: [Aufgaben/Prime_Numbers/](Aufgaben/Prime_Numbers/)
+- **Bruchrechnung**: [Aufgaben/Fractions/](Aufgaben/Fractions/)
+- **Primzahlen**: [Aufgaben/Prime_Numbers/](Aufgaben/Prime_Numbers/)
 - **TicTacToe**: [Aufgaben/TicTacToe/](Aufgaben/TicTacToe/)
-- **ZusatzAufgaben**: [Aufgaben/ZusatzAufgaben/](Aufgaben/ZusatzAufgaben/)
-
-## Tutorium info
-
-This repository contains the exercise notebooks and corresponding solutions for the Python Tutorium. Each exercise folder in `Aufgaben/` contains the tasks, and `Solutions/` provides the reference solutions.
+- **Zusatzaufgaben**: [Aufgaben/ZusatzAufgaben/](Aufgaben/ZusatzAufgaben/)
