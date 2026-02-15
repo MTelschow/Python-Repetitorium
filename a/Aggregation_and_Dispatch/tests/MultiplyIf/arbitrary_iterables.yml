@@ -1,0 +1,736 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+  ? !!python/name:pytest_nbgrader.assertions.equal_types ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 4
+      - 4
+      - -4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 7
+      - 9
+      - 2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -8
+      - 6
+      - 7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -7
+      - -2
+      - 5
+    - - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - - -7
+      - !!python/complex '2.3204972175470053+0.13404318494415313j'
+    - !!python/tuple
+      - 4.3887279684077685
+      - 9.555619464302955
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple []
+    - []
+    - !!python/tuple []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - !!python/complex '5.234924935022037+0.08945564013967888j'
+    - !!python/object/apply:builtins.range
+      - 7
+      - 9
+      - 2
+    - - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 6
+      - 16
+      - 5
+    - - 8
+      - -9
+    - !!python/object/apply:builtins.range
+      - -1
+      - -17
+      - -8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 3
+      - -5
+      - -8
+    - !!python/object/apply:builtins.range
+      - 7
+      - 1
+      - -6
+    - - -3.8082379357441316
+    - - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 5
+      - 23
+      - 9
+    - !!python/object/apply:builtins.range
+      - -8
+      - -18
+      - -5
+    - !!python/tuple
+      - !!python/complex '6.2591456653648505+0.9182782361641908j'
+      - -7.721195057241717
+    - !!python/tuple
+      - !!python/complex '-9.139804643640705+0.09661388458240483j'
+      - -3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 5
+      - 5
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -5
+      - -6
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -3
+      - -19
+      - -8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -7
+      - -7
+      - -4
+    - !!python/tuple []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - -10
+    - - -1.5682435372301344
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -6
+      - 4
+      - 5
+    - - !!python/complex '2.5729235054823256+0.11749640189026356j'
+      - 6.583679379604856
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -9
+      - -9
+      - 1
+    - !!python/tuple []
+    - !!python/tuple []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - 2
+    - !!python/tuple
+      - 3
+    - !!python/object/apply:builtins.range
+      - 6
+      - 11
+      - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -5
+      - -23
+      - -9
+    - !!python/tuple
+      - -8
+      - 8
+    - !!python/tuple
+      - 7
+      - -9.681646372561866
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 3
+      - 3
+      - -6
+    - !!python/object/apply:builtins.range
+      - -2
+      - -2
+      - 9
+    - []
+    - !!python/object/apply:builtins.range
+      - 7
+      - 7
+      - 8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - 0
+    - !!python/tuple
+      - -2.8755862766392957
+    - !!python/object/apply:builtins.range
+      - 9
+      - 1
+      - -8
+    - !!python/tuple
+      - !!python/complex '-5.298571771275057+0.45377249209481707j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - - 9
+      - 3.1551690232515486
+    - !!python/object/apply:builtins.range
+      - 7
+      - -1
+      - -4
+    - - !!python/complex '2.482526355156499+0.8539715402857841j'
+      - 8
+    - - -6
+      - 2.025847093267018
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - 3
+      - 4
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -7
+      - -1
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - []
+    - !!python/tuple []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/object/apply:builtins.range
+      - -3
+      - -10
+      - -7
+    - !!python/object/apply:builtins.range
+      - -9
+      - -10
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - -9
+      - !!python/complex '2.164691136083544+0.48453225633099894j'
+    - !!python/object/apply:builtins.range
+      - 9
+      - 27
+      - 9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple []
+    - []
+    - !!python/object/apply:builtins.range
+      - 6
+      - 6
+      - -7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - - !!python/complex '-6.628473622482336+0.3845868331693222j'
+    - !!python/object/apply:builtins.range
+      - 9
+      - 4
+      - -5
+    - - 9.632151812326928
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - -1
+      - -9.39944387505079
+    - !!python/object/apply:builtins.range
+      - 1
+      - 9
+      - 4
+    - - !!python/complex '2.029220508398181+0.7567256509183511j'
+      - !!python/complex '6.083883646842384+0.013547682141445971j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - - -1
+    - !!python/object/apply:builtins.range
+      - 2
+      - 11
+      - 9
+    - !!python/object/apply:builtins.range
+      - -2
+      - 0
+      - 2
+    - - !!python/complex '3.0124996456192488+0.4782865471340543j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -0.03972974630476467
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 0.5'
+    - !!python/tuple
+      - 1
+      - -0.03972974630476467
+    - - 9
+      - !!python/complex '-9.280252682107006+0.8394508146658789j'
+    - !!python/tuple
+      - 3.368936283551404
+      - -5
+    - !!python/tuple
+      - 4
+      - 4
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

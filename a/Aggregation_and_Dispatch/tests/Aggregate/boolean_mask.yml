@@ -1,0 +1,3376 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - &id002 !!python/name:builtins.sum ''
+    - []
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - &id003 !!python/name:builtins.all ''
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - &id004 !!python/name:builtins.any ''
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id002
+    - - !!python/complex '-4.723569010804797+0.6379119425582306j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - !!python/complex '2.846985148488533+0.017206531751043586j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - -3.1831567969008687
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 8.088604533011186
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id002
+    - - 0.3758547229824707
+      - 7.712749810028714
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id003
+    - - 8
+      - !!python/complex '3.628473749251908+0.7119766503109801j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id004
+    - - !!python/complex '-5.336387341953319+0.556638960091263j'
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+    - *id002
+    - - 7
+      - -1.2261669959080208
+      - 6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+    - *id003
+    - - !!python/complex '7.338753158623238+0.571825056606804j'
+      - !!python/complex '-0.23609722933124977+0.8211755987349731j'
+      - !!python/complex '-7.033542517090327+0.7152327300422888j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id004
+    - - -9.315053395481755
+      - 4.882888717942459
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-9.958218513558785+0.279938707407019j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+      - false
+    - *id002
+    - - !!python/complex '9.42673166265747+0.6208668483359555j'
+      - !!python/complex '6.226959741529547+0.4279742110247091j'
+      - !!python/complex '-9.958218513558785+0.279938707407019j'
+      - 7.342999089310133
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - true
+    - *id003
+    - - !!python/complex '-0.7895223165030114+0.8431851661470539j'
+      - !!python/complex '1.2375477953770284+0.9125551949115018j'
+      - !!python/complex '-1.3683574572923656+0.31119162614706997j'
+      - !!python/complex '9.625233383084502+0.326052621640632j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - false
+    - *id004
+    - - -7
+      - !!python/complex '-8.762792666424016+0.4382120600533853j'
+      - !!python/complex '2.3124310420112444+0.506790451973296j'
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -11.152478328291695
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - -3
+    - - -8.152478328291695
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - 3
+    - - 4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - -3
+    - - !!python/complex '0.5767578944318583+0.7149458267807234j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id002
+    - - 9
+      - -5
+    - - !!python/complex '-3.5918238119338275+0.6648389514649944j'
+      - !!python/complex '8.592987207944011+0.09433683951279548j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id003
+    - - !!python/complex '1.3595550284694615+0.8730445981827866j'
+      - 4.863967246425921
+    - - 1
+      - 2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id004
+    - - -10
+      - 7
+    - - -6
+      - !!python/complex '-1.0008122265631099+0.09185662012077334j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '9.824430915689977+0.24034193005309212j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id002
+    - - !!python/complex '8.428915114660473+0.24034193005309212j'
+      - -1.6750660344001247
+      - !!python/complex '3.823122261189037+0.18804643784606756j'
+    - - 1.3955158010295046
+      - -5
+      - -8.210716641732239
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+    - *id003
+    - - -9
+      - 7.6073284844173
+      - -1.7703725070718623
+    - - 7
+      - -10
+      - !!python/complex '-5.324593029238915+0.2629136603119645j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id004
+    - - !!python/complex '-7.678327855422171+0.32290910237516257j'
+      - !!python/complex '4.415578175113563+0.006936661969443869j'
+      - !!python/complex '-0.27069547446018083+0.5108322435014431j'
+    - - !!python/complex '1.3398255704969388+0.5189003076097282j'
+      - 1
+      - -1.250921652837564
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-15.698275769873476+0.4605829412598562j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - true
+    - *id002
+    - - !!python/complex '-6.6497028128407685+0.4605829412598562j'
+      - 2
+      - !!python/complex '1.3326167904531128+0.192078393174964j'
+      - -3
+    - - -3
+      - -8.048572957032707
+      - 4
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - false
+    - *id003
+    - - -5.601105569522744
+      - 4.654246268985353
+      - !!python/complex '-0.024614173092681546+0.33867123376587005j'
+      - !!python/complex '-0.5454316983080209+0.7134964012928229j'
+    - - !!python/complex '-2.275128556787964+0.7208409055305772j'
+      - -2.083259705835452
+      - -3
+      - -6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - true
+    - *id004
+    - - 6.364873048001886
+      - -5
+      - -1
+      - -5.870493933580464
+    - - 6.773346040438825
+      - 9
+      - !!python/complex '-6.361459920846854+0.380497252519443j'
+      - 8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -10.47311745261657
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - -6.464061377579894
+    - - 0.9909439249633245
+    - - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - 8
+    - - 9.734460972710549
+    - - 3.702510479037473
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - -3
+    - - 8.30745723146686
+    - - 8.141566851890868
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-19.289513907561073+0.5181849867703011j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id002
+    - - 8
+      - -9.162758502416036
+    - - 9.950952318037075
+      - !!python/complex '-9.126755405145039+0.5181849867703011j'
+    - - -2
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id003
+    - - 7.348442494278031
+      - !!python/complex '-4.5691576003933+0.9551096112465005j'
+    - - 4
+      - !!python/complex '7.625946270416319+0.29990604999682635j'
+    - - -10
+      - -2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id004
+    - - !!python/complex '2.5093404378782385+0.5550475358995459j'
+      - !!python/complex '7.47490485158805+0.14932405280271654j'
+    - - 3
+      - !!python/complex '-9.998579309079371+0.9864701549108208j'
+    - - 4.183566646157822
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-35.16521058477818+1.417305840421423j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+    - *id002
+    - - 7
+      - !!python/complex '-8.896065446086618+0.9484888692356076j'
+      - -9.492689912475662
+    - - -8.996153435126415
+      - -4.970417639903031
+      - -3.284763398852708
+    - - !!python/complex '-9.886613176396406+0.3352519549432259j'
+      - !!python/complex '-8.92130328869822+0.46881697118581533j'
+      - 0.40002910123806124
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id003
+    - - -10
+      - 0.48237402657522477
+      - -9
+    - - 4
+      - -2
+      - !!python/complex '4.60018039648578+0.07301564410834194j'
+    - - -3
+      - 4
+      - -7.446543891328684
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+    - *id004
+    - - -8.541043308825445
+      - !!python/complex '-8.723810690256146+0.4792772614139804j'
+      - -2.078693921706945
+    - - 3
+      - -3.186018291724227
+      - 6.592892108810394
+    - - -5
+      - -6.698221996574153
+      - !!python/complex '-7.7103172822297115+0.6094238980440224j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '12.80298404952697+0.2277615573543328j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - true
+    - *id002
+    - - -1.4275693512331367
+      - -4
+      - -1
+      - !!python/complex '2.5377357713812145+0.2277615573543328j'
+    - - !!python/complex '-2.9136135506585075+0.20049504811375596j'
+      - 7
+      - -4.6789508990889255
+      - -5.805347368962713
+    - - 7
+      - 7
+      - -9.743044602048794
+      - 6.070595647108469
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+      - false
+    - *id003
+    - - !!python/complex '4.846010841535281+0.953735000732118j'
+      - !!python/complex '8.643295477709092+0.6979775985538288j'
+      - 5
+      - 6.30259053829807
+    - - !!python/complex '4.510914429118219+0.7668016760481156j'
+      - 4
+      - -5.191348206212407
+      - 2.23521903173215
+    - - -9.50333201144293
+      - !!python/complex '-0.45761973519506594+0.29850360519865826j'
+      - !!python/complex '6.918745354669067+0.7089167478468181j'
+      - !!python/complex '-0.47723956988285077+0.27045563724405663j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - false
+    - *id004
+    - - !!python/complex '9.100174256130106+0.8147041308604993j'
+      - -4
+      - -3
+      - -3.4625212281169295
+    - - !!python/complex '8.779887161450823+0.7320988732557181j'
+      - -2.197126779182076
+      - 0.0024645016681356102
+      - -8
+    - - 8
+      - -0.8111657502958245
+      - !!python/complex '-5.64629247863475+0.9406181785989202j'
+      - !!python/complex '-1.3096780404200978+0.9200866952836376j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id002
+    - - !!python/complex '-6.426894074044381+0.941508768100887j'
+    - - -7.963450468085035
+    - - 3.4856590748788925
+    - - 9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - -0.3767979926963997
+    - - 5.005871776719989
+    - - -4
+    - - 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - !!python/complex '0.8224462468694053+0.6610455469409258j'
+    - - !!python/complex '-6.221576009304204+0.7681766471021071j'
+    - - !!python/complex '0.19645945600487635+0.23531453175938244j'
+    - - !!python/complex '6.330453941326426+0.8336848458722474j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-4.418599990954553+3.9595298626938273j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id002
+    - - !!python/complex '8.351789322971792+0.6726468106908948j'
+      - !!python/complex '-3.162609070484846+0.8386860089716169j'
+    - - !!python/complex '-5.131282587691251+0.8237766856062012j'
+      - !!python/complex '-9.882907797633836+0.41986328983902665j'
+    - - !!python/complex '7.727453254393724+0.9914615310818129j'
+      - !!python/complex '2.830769350317153+0.21309553650427504j'
+    - - 4.848187537172712
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id003
+    - - !!python/complex '3.9925468213177586+0.07587441867104494j'
+      - !!python/complex '-9.110858305327463+0.4758479956382736j'
+    - - !!python/complex '2.356500011754636+0.9250996075859631j'
+      - !!python/complex '-0.8449030157253822+0.17593314588155462j'
+    - - !!python/complex '-2.1975522646399233+0.1491934843016558j'
+      - -4.493230601449882
+    - - 9.508465269024308
+      - 8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id004
+    - - -0.47549123805694027
+      - !!python/complex '-1.8702192898950099+0.37120099830129083j'
+    - - -7.083670211673583
+      - 3
+    - - -7
+      - -8
+    - - !!python/complex '2.9396046603793797+0.8859349674062916j'
+      - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+    - *id002
+    - - 0.3989167240964795
+      - !!python/complex '-9.834578711572417+0.890314467113322j'
+      - 9
+    - - !!python/complex '3.1920683077952883+0.3436713124591817j'
+      - -6.3782488481817605
+      - !!python/complex '-8.110409528944842+0.1554991276214579j'
+    - - !!python/complex '5.669772212466873+0.5782027552441392j'
+      - -7.831549666928895
+      - 2
+    - - 8
+      - 6.8884928376865275
+      - -7.796977392592766
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+    - *id003
+    - - !!python/complex '-3.0883735923517204+0.3082192328931175j'
+      - !!python/complex '9.578586361565476+0.35576960032188343j'
+      - 8
+    - - !!python/complex '-3.0727607682345006+0.7952487657546816j'
+      - !!python/complex '2.9533066340193135+0.8796001610987909j'
+      - 9.858781186276772
+    - - 6.008077212244544
+      - !!python/complex '5.6258144714133085+0.20848967211922387j'
+      - !!python/complex '-5.22252965048241+0.13176212380885177j'
+    - - -9.655915129678418
+      - 9
+      - !!python/complex '-2.9889978362742444+0.31420917516227975j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+    - *id004
+    - - -8
+      - !!python/complex '9.945154470165297+0.05506772399562987j'
+      - !!python/complex '-0.05407711393025949+0.9315554418079386j'
+    - - 0
+      - -9
+      - -2
+    - - -9.589670071293856
+      - 4.143921600581153
+      - -9
+    - - !!python/complex '-2.4065574232091818+0.8832899193626519j'
+      - !!python/complex '-9.90750890262271+0.2953204846470827j'
+      - !!python/complex '-9.423247779623921+0.4336697739524922j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-13.096764885597471+0.7065497760431284j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+      - false
+    - *id002
+    - - !!python/complex '-7.846017865437778+0.7065497760431284j'
+      - 4
+      - !!python/complex '4.76836764977736+0.2825796412426731j'
+      - !!python/complex '-4.849634261039707+0.10224483070212098j'
+    - - 4.500193586018267
+      - -10
+      - !!python/complex '-6.372544205922715+0.5626809774045911j'
+      - 9.907180086579842
+    - - -6.75094060617796
+      - -8.968215021219631
+      - -1.5558020342144694
+      - 9
+    - - -3
+      - -5.2130680166706425
+      - 3.548442167369249
+      - -4.014489294897865
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+      - true
+    - *id003
+    - - 8
+      - !!python/complex '-4.864049748758939+0.8652885411564177j'
+      - 3
+      - !!python/complex '2.768441200971239+0.6660042475504545j'
+    - - -4
+      - 2
+      - !!python/complex '-4.921760050895383+0.8178400944756897j'
+      - 4
+    - - !!python/complex '6.152424435436577+0.7202068901954402j'
+      - -6.382998872239758
+      - -7
+      - !!python/complex '3.3895705575413944+0.454332751971138j'
+    - - !!python/complex '8.139948329802907+0.5806340789885238j'
+      - -1.2911233579361443
+      - 5.771541162725939
+      - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+      - false
+    - *id004
+    - - 1
+      - -5.6771405403521555
+      - !!python/complex '8.39781728438387+0.22927127042024942j'
+      - !!python/complex '-4.2299321817995015+0.043850903832347465j'
+    - - 8.961888278554127
+      - 6.378932766718353
+      - -8
+      - -4
+    - - -1
+      - !!python/complex '-8.102475897581751+0.1169734226732626j'
+      - !!python/complex '2.5523832616849873+0.007938530884397776j'
+      - 8
+    - - 2.915947011295534
+      - -9
+      - !!python/complex '-1.9023015216810797+0.6081218864311434j'
+      - -4.212482823710404
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id002
+    - - 1.7111680480129423
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - -8.922945041964514
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - !!python/complex '-8.022353032486919+0.5186438842304525j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id002
+    - - !!python/complex '-8.51381352673801+0.5007013665528814j'
+      - !!python/complex '-9.330039906201167+0.54504685255653j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id003
+    - - -0.41701044523769737
+      - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id004
+    - - !!python/complex '2.9963116079986474+0.6303649804120951j'
+      - !!python/complex '-8.266026358270235+0.5760742405730938j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '1.2822114305529126+0.5321758997458181j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+    - *id002
+    - - !!python/complex '-0.9586300470417649+0.2579957201840578j'
+      - -1.2556246480280517
+      - !!python/complex '2.5378360785809644+0.5321758997458181j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+    - *id003
+    - - 1
+      - 4.649585261685911
+      - !!python/complex '4.249967109371502+0.17854563706786042j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id004
+    - - 1
+      - -3.4685495579475623
+      - !!python/complex '-8.814931039314168+0.22945697128674547j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-1.0145575849002686+0.5777220452226283j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - false
+    - *id002
+    - - -4.355643246624518
+      - !!python/complex '-1.0145575849002686+0.5777220452226283j'
+      - !!python/complex '0.4392871881404944+0.9831204560970563j'
+      - -6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - false
+    - *id003
+    - - !!python/complex '-2.7514716513918893+0.11359193657700484j'
+      - -4.195883574191069
+      - !!python/complex '-6.223942610162796+0.41913149006272554j'
+      - 4.5506330054097806
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - true
+    - *id004
+    - - 1
+      - !!python/complex '3.769390624055758+0.97486982990789j'
+      - 4
+      - 9.20395777249026
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id002
+    - - !!python/complex '-1.6522296430094339+0.6158694294675453j'
+    - - 2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - !!python/complex '-6.181621337964773+0.10877458128097073j'
+    - - !!python/complex '-5.603845371289189+0.2790521554855355j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - -4
+    - - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id002
+    - - -5.263967391687473
+      - -5.178025303845064
+    - - !!python/complex '-4.226532211273017+0.8559631315099031j'
+      - -7.9121265437870445
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id003
+    - - -1
+      - -1
+    - - 9.729963725004227
+      - 7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id004
+    - - -7.3830630585479
+      - -8.963988674089018
+    - - !!python/complex '6.95647983543075+0.8990887672907776j'
+      - -9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+    - *id002
+    - - 8.325815820966357
+      - 1
+      - !!python/complex '-5.8388355296949825+0.2834610414899865j'
+    - - 9.206601387775159
+      - !!python/complex '-4.520021727727428+0.0012938796136112707j'
+      - -6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+    - *id003
+    - - 2.4037466617980936
+      - -6
+      - 6.746963826519456
+    - - !!python/complex '-5.945805681001386+0.4331724208596618j'
+      - 2.9090809525118972
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id004
+    - - 8.574207655556627
+      - 7.732846530984428
+      - !!python/complex '3.947439087124983+0.618669519306607j'
+    - - !!python/complex '8.410250544891982+0.9678003330164903j'
+      - !!python/complex '-7.11534469456526+0.21834601974508605j'
+      - -2.428207552793023
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-13.73827902799027+1.3224316282442734j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+      - false
+    - *id002
+    - - -3
+      - !!python/complex '-2.1960287055390997+0.8923454458711926j'
+      - -10
+      - 4.996761306884461
+    - - !!python/complex '3.4842362029716067+0.8440644041976659j'
+      - !!python/complex '-4.785183387144894+0.821191481781353j'
+      - !!python/complex '-4.222515230961878+0.4783672240466076j'
+      - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+      - true
+    - *id003
+    - - !!python/complex '-5.326214680032621+0.6641696186429469j'
+      - -7
+      - !!python/complex '7.728431688598598+0.5680367966172816j'
+      - !!python/complex '5.3931127118285795+0.33985115708364577j'
+    - - -3.6282388553870986
+      - 5
+      - !!python/complex '4.401390148821338+0.9592287161769791j'
+      - -3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - true
+    - *id004
+    - - 1
+      - 5.029581518032253
+      - !!python/complex '6.373621736628311+0.9053111768168891j'
+      - !!python/complex '0.6368454539456012+0.06984279481091937j'
+    - - 2
+      - -4
+      - -6.314288965358432
+      - 0.36911856635805473
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-23.588652764190936+1.2124450985963564j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - !!python/complex '-8.121541632328048+0.48544790287799366j'
+    - - -8
+    - - !!python/complex '-7.467111131862889+0.7269971957183627j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - 8.536903735547616
+    - - 3.06427833513754
+    - - 8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id004
+    - - 6
+    - - 5.224128382671205
+    - - 2.544379503835822
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-0.5775379675938908+1.3564653643719786j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id002
+    - - !!python/complex '5.990606766139613+0.5735589267441398j'
+      - 4.88270182617836
+    - - -2
+      - -3.882360965360644
+    - - !!python/complex '3.4315144054487794+0.7829064376278388j'
+      - -9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id003
+    - - !!python/complex '1.758707802617931+0.7169247077149488j'
+      - 5.636364346466661
+    - - !!python/complex '4.470355157942999+0.9143401628079524j'
+      - -10
+    - - !!python/complex '8.9538124587101+0.11045033803046345j'
+      - -2.278637337282513
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id004
+    - - !!python/complex '-8.43442326922167+0.8374357310343893j'
+      - 2.4263122951798883
+    - - -5.931330099699895
+      - !!python/complex '1.3596875478272508+0.0003688927375585793j'
+    - - -1
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -12.548751680192733
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id002
+    - - -4.692899515794113
+      - 0
+      - !!python/complex '-2.195460920396536+0.07724766050434761j'
+    - - -8.15826635361075
+      - 4.351696253954811
+      - -2.3024185053584145
+    - - 0.3024141892121305
+      - 3.6777746240081575
+      - -4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+    - *id003
+    - - -9
+      - -1
+      - !!python/complex '0.10618936312567029+0.5733938543442936j'
+    - - -9.67940953661475
+      - !!python/complex '5.170720182878796+0.7900891287363248j'
+      - !!python/complex '-1.6374330944924225+0.29100146042722275j'
+    - - 4
+      - !!python/complex '8.690049114154458+0.9644799358514261j'
+      - -3.6384484866517894
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+    - *id004
+    - - !!python/complex '-5.293297635875582+0.48968821340305047j'
+      - !!python/complex '-7.187614144263624+0.6810428049931377j'
+      - -8
+    - - 8
+      - 1
+      - 5.481047404371966
+    - - -4
+      - 0.5107571160588253
+      - !!python/complex '-1.7812331798566166+0.8425408537434859j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '10.352378505094764+2.1561973759563378j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - true
+    - *id002
+    - - 4.067943835423827
+      - 3.3805061644776653
+      - !!python/complex '3.875376458137446+0.5319906980922133j'
+      - 2
+    - - 5
+      - 3
+      - !!python/complex '-0.6448179634099417+0.8242737260424339j'
+      - -9
+    - - -0.6950393304055942
+      - !!python/complex '4.2957977922397514+0.5723657089340793j'
+      - 3.69187466256613
+      - !!python/complex '-0.24635860891628636+0.2275672428876111j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - false
+    - *id003
+    - - !!python/complex '4.171275355695739+0.6076329510752747j'
+      - !!python/complex '-8.786869574845834+0.9682737322396942j'
+      - 3
+      - -3
+    - - -3.404618342659724
+      - -10
+      - -1
+      - !!python/complex '3.1654503439546646+0.7444721194712366j'
+    - - -5.774789967933893
+      - !!python/complex '-1.8365657530228163+0.4698344851954718j'
+      - -4.742140468237493
+      - -8.90722496319243
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+      - true
+    - *id004
+    - - 0.3745138993841045
+      - !!python/complex '-3.742158326158713+0.5761499962764747j'
+      - 5.263122796713711
+      - !!python/complex '9.561315174033323+0.22151480291642245j'
+    - - !!python/complex '-1.8768586436388146+0.419955854583157j'
+      - 2
+      - !!python/complex '-9.825956827663857+0.2075519430976812j'
+      - 9
+    - - 8
+      - !!python/complex '-9.830291340390126+0.20500098780459997j'
+      - !!python/complex '-3.027853475301484+0.6569341718036092j'
+      - 2.075542724310807
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '6.8006887023442335+1.6122191032467321j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - !!python/complex '-5.5755921947599125+0.7502489886967968j'
+    - - -1.7560280569764195
+    - - 4.404234246416419
+    - - !!python/complex '9.728074707664147+0.8619701145499354j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - 8
+    - - 5.238352622748425
+    - - 5.685116108907703
+    - - -8.372751713511327
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - 6.3378500427448365
+    - - !!python/complex '7.493143571910101+0.5639080402114744j'
+    - - 3.0880638763255472
+    - - 9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -8.25304247889516
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id002
+    - - -0.8334835483224728
+      - 6
+    - - 6.494774933176108
+      - -4.359252504137164
+    - - -8
+      - -6.556744656921062
+    - - 8.471993834645936
+      - -3.3370453178369344
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id003
+    - - 4
+      - !!python/complex '9.198777010130293+0.7813557990308362j'
+    - - -9.034037581311907
+      - !!python/complex '-6.025806099256749+0.6799741197750997j'
+    - - !!python/complex '4.228528484964018+0.584320267046729j'
+      - !!python/complex '-3.4273439544158895+0.19988139540274685j'
+    - - 0.19915884850496068
+      - -8
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id004
+    - - 0
+      - 0.5432146726653688
+    - - !!python/complex '-3.044012997856052+0.28891299303221263j'
+      - -6
+    - - -7
+      - 2.6792947899797506
+    - - !!python/complex '9.306243229855147+0.0009535505591613536j'
+      - 4.011186006768184
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '13.115597441810591+0.472560583320043j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+    - *id002
+    - - -0.23684983556446315
+      - 7
+      - !!python/complex '6.84353092350392+0.4002864536503875j'
+    - - !!python/complex '0.5340242482643847+0.472560583320043j'
+      - 4
+      - 5
+    - - -6.1815769708893304
+      - -2
+      - !!python/complex '2.6109445350256433+0.6040578364886715j'
+    - - 8
+      - 2
+      - 9.581200038417773
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+    - *id003
+    - - -9.013180184567057
+      - -9.246322094870697
+      - !!python/complex '-1.7934486525523783+0.08343976825916466j'
+    - - -7.044658321710862
+      - -1
+      - -5.676052294011726
+    - - !!python/complex '-3.1102789566708493+0.06241353218662826j'
+      - -1.266595000348913
+      - -2.9095064102470185
+    - - -5.021499399815897
+      - 2
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+    - *id004
+    - - !!python/complex '-1.668450014217159+0.024417377748715663j'
+      - 6.390823037134997
+      - 6
+    - - 9.436013530806504
+      - 6
+      - -1.199362086934011
+    - - !!python/complex '0.22337114114637502+0.09144451253843067j'
+      - !!python/complex '5.9356467618768525+0.957281002199609j'
+      - 2
+    - - !!python/complex '-1.44257751266818+0.7515961472194244j'
+      - !!python/complex '-7.862142829509706+0.09944359204038022j'
+      - !!python/complex '3.6333974032350795+0.716929056056203j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '1.0060148172494525+0.5036516729042757j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+      - false
+    - *id002
+    - - 3.3546516843964067
+      - 8.722055256140202
+      - -6
+      - !!python/complex '0.6959304539018799+0.616188250043708j'
+    - - !!python/complex '-0.25484908528273953+0.5036516729042757j'
+      - 2
+      - 1.5485769157931966
+      - -8.236004062002126
+    - - -9.093787781864215
+      - 5
+      - 8.095223849090065
+      - -4.381972687000307
+    - - 7
+      - !!python/complex '-8.960445141557363+0.6529981604793829j'
+      - -8.222360801607458
+      - !!python/complex '-1.336806112329337+0.4635507377062551j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+      - false
+    - *id003
+    - - -1.6486564266648838
+      - 3.4179643908089807
+      - !!python/complex '-6.137886438101235+0.2438010074518855j'
+      - -4
+    - - -2
+      - -1.6530172763376147
+      - !!python/complex '9.092844169894896+0.5580366411428023j'
+      - !!python/complex '-6.2686046820134145+0.2662913623259511j'
+    - - !!python/complex '-7.476653004241441+0.44932579998174427j'
+      - !!python/complex '-9.14824222831337+0.3917038788069699j'
+      - !!python/complex '-3.632225018592744+0.3979759813296393j'
+      - -4.871442763374534
+    - - 0
+      - !!python/complex '5.573078631460248+0.45924865991403785j'
+      - !!python/complex '-0.9111716362220146+0.5450931139048225j'
+      - !!python/complex '4.553851362564755+0.7265249715711166j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - false
+    - *id004
+    - - -10
+      - 8
+      - -10
+      - -5.032175443100327
+    - - !!python/complex '-4.276900040428915+0.6628096370992593j'
+      - -2
+      - 6
+      - -4
+    - - -5
+      - !!python/complex '9.427438433909913+0.9675606375949183j'
+      - !!python/complex '9.455481471698626+0.05364563114807308j'
+      - 1
+    - - 6
+      - -9
+      - !!python/complex '8.678249917644633+0.14510812841506993j'
+      - !!python/complex '-3.7972082967493654+0.3151376787764608j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-5.400385361218118+0.8264280226968213j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - !!python/complex '-5.400385361218118+0.8264280226968213j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - 6.492286197722898
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id004
+    - - -2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1.9197978006683907
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id002
+    - - -1
+      - 1.9197978006683907
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id003
+    - - -0.712360923112859
+      - 6.142920278985596
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id004
+    - - 5.060263803040799
+      - -2.4252015454672815
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-1.0613977643309438+0.9347392080015653j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+    - *id002
+    - - !!python/complex '2.601101391063247+0.9347392080015653j'
+      - 2.104624665098692
+      - -5.767123820492883
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+    - *id003
+    - - -0.564034614940479
+      - !!python/complex '9.124111659096476+0.5305040236067489j'
+      - !!python/complex '-4.420407048511734+0.6487220320121143j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+    - *id004
+    - - !!python/complex '-0.6864045772391015+0.06458153061604965j'
+      - -2
+      - !!python/complex '5.882773857039931+0.3911068564966371j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '7.949908445870701+0.15557300146854935j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+      - false
+    - *id002
+    - - 0
+      - 8.011462608966763
+      - !!python/complex '7.949908445870701+0.15557300146854935j'
+      - 5.107950797910444
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - false
+    - *id003
+    - - !!python/complex '-3.0528874250487874+0.8834135566543085j'
+      - !!python/complex '4.229786464206439+0.5198339100425986j'
+      - -9.225666887144998
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - false
+    - *id004
+    - - 7
+      - 5.474791003255662
+      - -7.751899429566935
+      - !!python/complex '-1.8440707867637522+0.21192975165135974j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id002
+    - - 3
+    - - 7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - -5.535540408833451
+    - - !!python/complex '5.6218257677126395+0.4367469848465473j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id004
+    - - -1.152216039181308
+    - - 7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '14.137921588203767+0.46205801729647156j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id002
+    - - !!python/complex '5.777882833840992+0.46205801729647156j'
+      - -6
+    - - 8.363599797554834
+      - 5.9964389568079435
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id003
+    - - 6
+      - -6
+    - - -1.7571306958206803
+      - -7.865331857308478
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id004
+    - - !!python/complex '0.9912398453788398+0.43023045893062295j'
+      - !!python/complex '7.1078725256378705+0.068501103910938j'
+    - - 5
+      - !!python/complex '-3.8284393224610653+0.08194046614236372j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-5.90274335550573+0.6117917974228605j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+    - *id002
+    - - 0.6139323542829664
+      - -9.816262364176596
+      - !!python/complex '-9.133077753471492+0.2965582568252595j'
+    - - !!python/complex '4.586142749183246+0.315233540597601j'
+      - 2
+      - -1.969740705500451
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+    - *id003
+    - - !!python/complex '-3.621933506543407+0.55076635494076j'
+      - !!python/complex '3.7200203353000405+0.31299618455997946j'
+      - -5
+    - - -1
+      - 7
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+    - *id004
+    - - -8.978954433123285
+      - !!python/complex '-7.278123832191115+0.9050636949083221j'
+      - -8
+    - - !!python/complex '-9.300268813846348+0.8097292625370799j'
+      - !!python/complex '-9.864249452970283+0.41984009679303724j'
+      - -9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-0.7475493946197096+0.8404251372443162j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - false
+    - *id002
+    - - -5.75238597311942
+      - -9
+      - -1.3644098766580486
+      - -0.821540481815214
+    - - !!python/complex '9.499114096444575+0.8404251372443162j'
+      - 4.505722482055135
+      - !!python/complex '7.410291277652317+0.7268594317339403j'
+      - 9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - false
+    - *id003
+    - - !!python/complex '4.5218501562189175+0.40976103556946586j'
+      - -5.475444611721172
+      - -5
+      - !!python/complex '-4.515499534501429+0.5001734774927796j'
+    - - !!python/complex '-1.6286728110682531+0.7097777918421494j'
+      - 6.70842566082607
+      - -2
+      - !!python/complex '-6.721891980146252+0.26052302027832286j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+      - true
+    - *id004
+    - - !!python/complex '9.67106511997076+0.3557856121039332j'
+      - -9
+      - -9
+      - !!python/complex '0.3864266139337429+0.9586540119233515j'
+    - - -5.021908527275567
+      - -5.8715707015542735
+      - -9.350372554132543
+      - -4.058439721371483
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -1.1601079629743625
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - -4.256563560144922
+    - - 2
+    - - 1.0964555971705598
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+    - *id003
+    - - !!python/complex '4.705943010991471+0.97999671634908j'
+    - - !!python/complex '-6.884255185056189+0.5353245393351916j'
+    - - !!python/complex '6.504643006326361+0.058806381768627736j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id004
+    - - -9.375566402022189
+    - - 4.111828200898926
+    - - 6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -12.283724230288332
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id002
+    - - -3.8331298212285345
+      - !!python/complex '-0.7460316172404837+0.3205375431382437j'
+    - - -8.225898915730836
+      - -2.9224751415207386
+    - - -0.22469549332896133
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id003
+    - - -1.92577858937263
+      - 6.739842737058695
+    - - -3
+      - -7
+    - - !!python/complex '8.214086831959055+0.014814267990235663j'
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+    - *id004
+    - - -2
+      - 3.5431576436592565
+    - - -6.834749675395288
+      - 3.075721722893352
+    - - -2
+      - !!python/complex '3.468851210657671+0.9207478588484119j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '0.9821465658205+0.05613014137240924j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - false
+    - *id002
+    - - 6.865127680730727
+      - 1.7675376719197868
+      - !!python/complex '-8.490829837253461+0.9683360261001014j'
+    - - 7.369787696110144
+      - !!python/complex '3.214608893900713+0.05613014137240924j'
+      - -7.947244209465996
+    - - 7
+      - -4
+      - !!python/complex '0.5391041600702037+0.8465143718010948j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+    - *id003
+    - - 7.69364483383448
+      - 7
+      - -9.575199774115147
+    - - -8.151546910553172
+      - !!python/complex '-1.5545723191812235+0.14663181259876812j'
+      - 5
+    - - !!python/complex '-3.232407722703384+0.3276154346626109j'
+      - -9.40630658356821
+      - 0.7275450976539624
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+    - *id004
+    - - 9
+      - !!python/complex '-3.3694423358665744+0.9144199047384053j'
+      - 9
+    - - -9.7438290761892
+      - 3.0662352967702327
+      - -9.024160647700985
+    - - !!python/complex '7.48212066747376+0.28188840773333435j'
+      - 7
+      - 8.808765981711472
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-3.8552452480416637+0.8334037857169768j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - false
+    - *id002
+    - - !!python/complex '4.375831409808754+0.04839314256934901j'
+      - -9.609090537643244
+      - 1
+      - !!python/complex '-8.92503840020354+0.4589721571486213j'
+    - - !!python/complex '8.636498687589086+0.5908844713525321j'
+      - !!python/complex '2.1822669608498293+0.19412617179509573j'
+      - 9
+      - -1.715005846422593
+    - - -5.440751768646089
+      - -4
+      - !!python/complex '-0.16117896407270205+0.11838665935661996j'
+      - 2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+      - true
+    - *id003
+    - - !!python/complex '-6.671202851515553+0.23458441797761742j'
+      - 7
+      - 0.07402415686744768
+      - -8
+    - - !!python/complex '3.1377319145552525+0.3498131801870509j'
+      - 1.2641367822352956
+      - !!python/complex '3.295927057456659+0.9633663721550995j'
+      - !!python/complex '2.901309135800676+0.9916726027894831j'
+    - - !!python/complex '-1.3998043630718935+0.037162703883330206j'
+      - !!python/complex '6.596934888278211+0.14755340268337025j'
+      - -7
+      - 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - true
+    - *id004
+    - - !!python/complex '-3.786558147357333+0.06956029133466779j'
+      - !!python/complex '-3.359224632025982+0.6665662372519174j'
+      - !!python/complex '9.816561239659436+0.9462073135445224j'
+      - -7
+    - - !!python/complex '-9.71486561559942+0.6625656368039815j'
+      - 5.979167248713486
+      - !!python/complex '7.472877633102333+0.6339728136223621j'
+      - 9
+    - - !!python/complex '1.6166302143489568+0.91288412503717j'
+      - -0.9427993516752301
+      - 5.481447707006968
+      - !!python/complex '0.12599606987558254+0.4594156591807581j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id002
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id003
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - []
+    - *id004
+    - []
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -7.5878796369315875
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id002
+    - - -1.5504973666637571
+    - - 5
+    - - -3.362251609863814
+    - - -7.675130660404016
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id003
+    - - !!python/complex '-6.275675057259156+0.5899495362828975j'
+    - - -1
+    - - -10
+    - - 2.101443642094527
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+    - *id004
+    - - -7
+    - - 6
+    - - 3
+    - - !!python/complex '-1.6468465707883844+0.08194538852671995j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 8.542750942218353
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+    - *id002
+    - - 7
+      - -6.3936163569817435
+    - - 4
+      - -8.813486400330762
+    - - -6
+      - !!python/complex '9.267633013211203+0.056128778649306876j'
+    - - 3.542750942218353
+      - -3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+    - *id003
+    - - -10
+      - 0
+    - - -6.737690827042189
+      - !!python/complex '-2.6027112081618013+0.6177730917528002j'
+    - - 7
+      - !!python/complex '-1.8854456712855954+0.35681329350538815j'
+    - - !!python/complex '-4.915867715519393+0.4817309411461109j'
+      - !!python/complex '9.564942042704237+0.5944886285389793j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+    - *id004
+    - - 2
+      - -7.798862882040828
+    - - 0.8686927460931277
+      - 3
+    - - 8.723053752787951
+      - !!python/complex '-6.517535050228473+0.30926228647840404j'
+    - - -5
+      - -6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '0.787264229419602+1.4783418953854042j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - true
+    - *id002
+    - - 0
+      - !!python/complex '-4.430767407358971+0.33730786437153903j'
+      - -2
+    - - 2
+      - 9.49432563306908
+      - 1.2342227609525267
+    - - !!python/complex '-2.956342953297969+0.9314249207191548j'
+      - !!python/complex '-1.4526298478989532+0.8177210242342269j'
+      - 3.495661115819124
+    - - -1.9827825889513528
+      - -9
+      - !!python/complex '0.9965058948972727+0.5469169746662493j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - false
+      - false
+    - *id003
+    - - -5.303745068681469
+      - -6
+      - 3
+    - - -3
+      - 5.232535690131048
+      - -9.021523931804884
+    - - !!python/complex '8.286035514683515+0.17812986665945052j'
+      - 5
+      - 3.711658919171986
+    - - -1
+      - -10
+      - 7.765196713636168
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - true
+    - *id004
+    - - 7.404223366580583
+      - -4.318289128254366
+      - 3
+    - - -4
+      - !!python/complex '-0.15688421141930786+0.46563014524968305j'
+      - -1
+    - - -4.968815343171851
+      - !!python/complex '-1.0082784965690634+0.13000731699544366j'
+      - !!python/complex '-0.5704447734501445+0.10988475109499884j'
+    - - !!python/complex '7.764076543310222+0.002047161710186707j'
+      - -8
+      - -3.865656941853179
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '13.850700703391846+3.3160385114176534j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - true
+      - true
+      - true
+    - *id002
+    - - 0.15870629615769882
+      - 9.143875530324763
+      - 8.280124546830118
+      - !!python/complex '-1.0367875621581524+0.2932519641159077j'
+    - - !!python/complex '9.097939247701898+0.4773081949202491j'
+      - -9.726894487294652
+      - 7
+      - !!python/complex '0.5978916183714929+0.81458422500869j'
+    - - -4
+      - -2.479471817173109
+      - !!python/complex '1.98886316045947+0.45056074372059673j'
+      - !!python/complex '-3.659551615864016+0.9032213077409955j'
+    - - -2.7970389003505605
+      - !!python/complex '2.7270651448441394+0.8544202708314632j'
+      - 0
+      - 1.0155861850517944
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - false
+      - false
+    - *id003
+    - - 0.6226660822739428
+      - 7.30132793753169
+      - !!python/complex '-6.943651554206113+0.008199297580363751j'
+      - -9.62164420160436
+    - - 7
+      - !!python/complex '-6.1294551155772785+0.22631480121908698j'
+      - !!python/complex '6.353523274713092+0.1919491935425055j'
+      - -4.396312582452454
+    - - !!python/complex '7.428644431425188+0.7969722731932921j'
+      - 1
+      - !!python/complex '3.8057255202348497+0.3363649559381737j'
+      - 3.806922086250004
+    - - -4.551147471068587
+      - !!python/complex '-5.775113869587902+0.11598834367724009j'
+      - !!python/complex '-4.783092313944107+0.2598284245259499j'
+      - !!python/complex '-9.155617198019506+0.37840562041697334j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - - true
+      - true
+      - false
+      - true
+    - *id004
+    - - 2
+      - !!python/complex '-4.789144404024614+0.9867095303058152j'
+      - 3
+      - !!python/complex '2.7880610878603127+0.4780633557531746j'
+    - - !!python/complex '-9.350141861733233+0.09295376379852183j'
+      - !!python/complex '-3.752866235731084+0.7134599705158523j'
+      - !!python/complex '5.483421698474405+0.3274182243528342j'
+      - !!python/complex '-7.9708432603852515+0.07331850316255828j'
+    - - -4.648507035180198
+      - !!python/complex '3.899038682166961+0.876831027815952j'
+      - -9.236936677879443
+      - 4
+    - - -4.662099681918747
+      - -9
+      - -1
+      - 7
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

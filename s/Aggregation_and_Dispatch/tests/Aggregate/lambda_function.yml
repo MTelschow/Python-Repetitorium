@@ -1,0 +1,1486 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - &id002 !!python/name:builtins.sum ''
+    - []
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - &id003 !!python/name:builtins.all ''
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - &id004 !!python/name:builtins.any ''
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -9
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - -9
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '6.161431210156554+0.9484037230321256j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - -2.7961787378592646
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - !!python/complex '-9.301290038433125+0.9106840448309353j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - !!python/complex '-1.0174020308080127+0.5171087998827032j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - -5.557206791917682
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-1.7033760235177917+0.951136772150375j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - -4
+      - !!python/complex '2.2966239764822083+0.951136772150375j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - 4.5504446305007535
+      - -2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - -8
+      - 2.8269719866190073
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -2
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -2
+      - !!python/complex '8.201909026702632+0.19562198305199352j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - -2
+      - 1.9040474511441023
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 5
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -0.7173989143128274
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - 6.2826010856871735
+      - 3
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '-4.39728665455951+0.9132514103451643j'
+      - !!python/complex '3.146725696134608+0.20754320380537394j'
+      - !!python/complex '7.872217494190824+0.17292281360827855j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-7.4680427011701624+0.8730358005729496j'
+      - !!python/complex '5.479114095245945+0.4145114227270872j'
+      - 8.745458103933297
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 2
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - 2
+      - !!python/complex '-7.004979172889163+0.4736911826372925j'
+      - !!python/complex '-9.901810578108256+0.8566355840552788j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - !!python/complex '0.5222734641620422+0.23044964677095392j'
+      - !!python/complex '-0.1544471254316333+0.6211547491919709j'
+      - -1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 2.7519180334192828
+      - -0.1732741978794614
+      - -4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 22.287504866043136
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - 8
+      - 7.755179094369484
+      - 2
+      - 4.5323257716736505
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '-4.880789323369978+0.8331966243128553j'
+      - -7
+      - !!python/complex '3.200743120173148+0.026421332923316942j'
+      - !!python/complex '7.699775177107774+0.9750180381998935j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '4.598706952853364+0.8645305857270956j'
+      - -8
+      - -9.183157106993061
+      - !!python/complex '5.137254305728583+0.8569300902865817j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -1.610946630100071
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - !!python/complex '7.897498361025791+0.6162172633403202j'
+      - 6
+      - !!python/complex '8.618060374002466+0.5675284236914347j'
+      - -1.610946630100071
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - !!python/complex '6.385191145741465+0.9946603104307216j'
+      - !!python/complex '6.355039066264414+0.7770781344525568j'
+      - 2
+      - 6
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 2
+      - 1.070544270140871
+      - -1
+      - !!python/complex '9.803579589524263+0.48635295356816743j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '2.2885059454373833+0.6747060771246614j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - !!python/complex '8.286900662756057+0.565669386425087j'
+    - - !!python/complex '-5.998394717318674+0.10903669069957433j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - 9.099457294623216
+    - - !!python/complex '-9.267344465805822+0.2299131047291879j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-5.6065306280577785+0.3345494185932584j'
+    - - !!python/complex '-0.8355795267021907+0.8091132183295563j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '1.9866955639481554+0.8044389364144195j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - !!python/complex '1.9866955639481554+0.8044389364144195j'
+    - - 7
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - -2
+    - - -2.405526675417598
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - -7.605278655867945
+    - - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '0.790387446619218+1.3028236538055054j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - !!python/complex '-3.103002109772696+0.6168533939459758j'
+      - 6
+    - - -8
+      - !!python/complex '5.893389556391914+0.6859702598595296j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - -3
+      - !!python/complex '-4.67856574786824+0.8355013519332944j'
+    - - 4.414837714764748
+      - !!python/complex '-3.1649377556067018+0.8151483191285238j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '8.272693515166251+0.5036668725043691j'
+      - !!python/complex '2.6130913076845284+0.9717223628433072j'
+    - - 9.458419193758612
+      - !!python/complex '2.22818426093742+0.2537225894540399j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -3.146669951674448
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -4.00056340953172
+      - !!python/complex '-7.181978211214015+0.3988277015119259j'
+    - - -4
+      - 4.853893457857272
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - 1
+      - 3.0970873018963134
+    - - 3.6072551676275313
+      - -6.361639381174211
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - !!python/complex '4.277198297290077+0.48202729154483803j'
+      - !!python/complex '2.724803104898052+0.1091229672175914j'
+    - - !!python/complex '3.340508524933725+0.9142298472284628j'
+      - 3.7859988673801643
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '2.7398767127713812+0.3848122437055683j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - 1
+      - -8
+      - -2.1052777869377386
+    - - 2
+      - !!python/complex '4.84515449970912+0.3848122437055683j'
+      - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - -2
+      - 7
+      - -0.8952754048701734
+    - - 3.4109545593959143
+      - -9
+      - 8.596145764041806
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - 2.503740961848594
+      - 9
+      - -2.9367054539907405
+    - - -9.631955322823393
+      - -7
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 4
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -8.136664166646147
+      - !!python/complex '7.669377351201343+0.5714350812721228j'
+      - 4
+    - - 9.00598423925649
+      - 7
+      - -9.458223283190462
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - -2.9732083420575703
+      - 5.190912020412186
+      - -3
+    - - !!python/complex '1.2117409790493898+0.7565020426017491j'
+      - 4.649421065113988
+      - -4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 6.365427482228823
+      - 3
+      - 4.58381894466633
+    - - 6
+      - 5
+      - !!python/complex '-3.599104229575707+0.799907749085523j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '40.58934039104172+0.6998241041108388j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - !!python/complex '8.210960395146797+0.18666755516892786j'
+      - 7
+      - 7.399174008247802
+      - 9.856479876112152
+    - - !!python/complex '-9.575668233359988+0.5104437178541272j'
+      - !!python/complex '4.603046034592322+0.0027128310877837514j'
+      - 5.261205533274684
+      - 7.834142777027959
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '-5.747867795995367+0.1313744592176046j'
+      - !!python/complex '0.3972104623129984+0.8395583271347172j'
+      - !!python/complex '4.209578563167385+0.6128534605732671j'
+      - 7.120235362071642
+    - - -1
+      - 2
+      - 1
+      - -0.8274513296142665
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-4.46896034203811+0.7476561948827543j'
+      - -5.294019356907666
+      - !!python/complex '2.8557376773942655+0.7524281647429604j'
+      - 2.6039254696137597
+    - - -1.3154896530571514
+      - 8.178002691947587
+      - !!python/complex '4.4490655858662285+0.5112450626621241j'
+      - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -6.05985106034742
+      - !!python/complex '7.934407604298986+0.869632656395123j'
+      - 8
+      - -5
+    - - -1
+      - !!python/complex '9.084200138887814+0.06873157425002707j'
+      - 6
+      - 7.883814473147536
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - -9.517156696009003
+      - 6
+      - -0.18551291168104023
+      - 5.083774604853079
+    - - -5.804905879296419
+      - !!python/complex '-9.879220432641288+0.18958250840249313j'
+      - -3
+      - !!python/complex '3.451144293954732+0.5811913234456307j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 6
+      - !!python/complex '7.302837843190173+0.6875411503595419j'
+      - -1.8484165827889374
+      - -1
+    - - 2
+      - -1
+      - -7
+      - 6.688816456763599
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - []
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '7.257140598358744+0.2359727615509638j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - 5.405593462854457
+    - - !!python/complex '3.569424764027504+0.2359727615509638j'
+    - - -1.7178776285232173
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '-7.8108544084670415+0.2032375988170564j'
+    - - 1
+    - - -2.147331997264785
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '0.47853333865249303+0.06384242166373222j'
+    - - -4
+    - - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-0.6022141336689488+0.712196044071169j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -4.455492550178395
+    - - !!python/complex '1.332897981130054+0.4503597551014522j'
+    - - !!python/complex '2.520380435379392+0.2618362889697168j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - 3
+    - - 2
+    - - 1.2201989730537233
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - !!python/complex '1.3273479662133145+0.9665573193232262j'
+    - - 5
+    - - 5.354904080054949
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-3.4456701250823887+1.6545229467465763j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - !!python/complex '-5.361375677821117+0.7674612221222695j'
+      - !!python/complex '7.553839024466083+0.8870617246243069j'
+    - - -6
+      - -1.2908254549281284
+    - - -1.3473080167992268
+      - 3
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - -4.580955926259218
+      - -0.08452514291603008
+    - - 5.650614940838754
+      - 6
+    - - 7.830808276683629
+      - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-7.394056731961225+0.7672703768768424j'
+      - 7.98446407137392
+    - - -3.037567924979526
+      - -2.2139178214308597
+    - - 9.938625830653612
+      - !!python/complex '-4.867602028505139+0.733858691063272j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1.1115991803294731
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - -0.7169154338702898
+      - 7
+    - - 2
+      - -0.1714853858002373
+    - - -7
+      - -6.831671932343129
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - 2.6719871040324445
+      - !!python/complex '-8.845614968792766+0.5200416687545278j'
+    - - !!python/complex '6.176012251195448+0.6067763701229384j'
+      - !!python/complex '3.6635684831152293+0.6662635108934892j'
+    - - 6.598468684154907
+      - -5.557190127276828
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - !!python/complex '-3.188769430214451+0.5867632528854512j'
+      - !!python/complex '-4.664573599696182+0.6611578200545875j'
+    - - -9
+      - 3
+    - - !!python/complex '-5.721060556988501+0.7041532812033492j'
+      - !!python/complex '-4.118209908289475+0.928064206444002j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-13.842149641253439+0.4353469341136049j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - -4
+      - -9.039856274276943
+      - -8.325045696747019
+    - - 4
+      - 3.0477966770580243
+      - 0
+    - - !!python/complex '-7.1736693430251925+0.4353469341136049j'
+      - 2.6486249957376926
+      - 5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - 2.202775045186657
+      - -9.946124726691346
+      - -1
+    - - !!python/complex '-5.8946255571125175+0.23655604209126357j'
+      - -9.027576310522353
+      - 5
+    - - !!python/complex '0.11810832008058125+0.10774995643633567j'
+      - -6.21378483543139
+      - !!python/complex '-2.708834449167991+0.9101243894189239j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-8.433963862086685+0.5727657316868423j'
+      - 3.1089731214358816
+      - -4.498019342711233
+    - - 7.976772711219983
+      - -4
+      - !!python/complex '3.254011724715375+0.8540416142986287j'
+    - - -5
+      - -3.78870963333972
+      - -2
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '3.0709341298530015+0.5846496181140053j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - !!python/complex '-6.78941960528904+0.35914811652193224j'
+      - !!python/complex '5.601593750606844+0.16108798585199036j'
+      - 5.681229733634867
+    - - -9.819291692877073
+      - !!python/complex '3.0709341298530015+0.5846496181140053j'
+      - -5
+    - - !!python/complex '-7.772038082301114+0.13794357300823168j'
+      - -7
+      - !!python/complex '8.351584906289592+0.007130378771664003j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - -7.87258233012152
+      - 8.76700525672029
+      - 3.5837979941897475
+    - - -6.532722817278741
+      - !!python/complex '9.652836585133967+0.9760820951036177j'
+      - -3.526109110933856
+    - - !!python/complex '-7.60929988703702+0.4453595249896216j'
+      - !!python/complex '5.977334841518887+0.006820252935852533j'
+      - -10
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - 5
+      - -7.624548739608633
+      - 2.79537833625274
+    - - 3.957614409030306
+      - -10
+      - 9
+    - - !!python/complex '-2.64702406988815+0.2872135645698116j'
+      - 6
+      - -8.128275611829233
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-23.97571463196512+1.1279743451536235j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id002
+    - - 0.6117604640055511
+      - -4
+      - !!python/complex '0.04255684671731741+0.671558037225899j'
+      - -8.68297669646681
+    - - -1
+      - -5.525791974613096
+      - -0.13073160004680318
+      - !!python/complex '1.0434492990784605+0.45641630792772436j'
+    - - 8
+      - -9.239934978140093
+      - -5.355533832128926
+      - 0.2614878396292818
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id003
+    - - !!python/complex '-5.569626056147005+0.2201048881772787j'
+      - -7.11452808634071
+      - !!python/complex '-6.189039978559159+0.33188345864656754j'
+      - 4
+    - - 9
+      - 7
+      - -0.10800616437174149
+      - -8.697228952555973
+    - - -7
+      - -10
+      - 9
+      - -4
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: bool(x)'
+    - *id004
+    - - !!python/complex '-0.05165100360601327+0.6463585076042041j'
+      - 2.503471477034652
+      - -10
+      - 4.476837214411431
+    - - -8
+      - !!python/complex '9.22609073060655+0.9954508124472116j'
+      - -1
+      - 0
+    - - 5.503240722080765
+      - !!python/complex '8.949467725658852+0.7517182332960543j'
+      - -6.960876079786003
+      - -5
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -5.817425907386677
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id002
+    - - !!python/complex '-6.627447679613294+0.32219561851487344j'
+      - -3.631008998433101
+      - -2.186416908953576
+      - -10
+    - - !!python/complex '-9.698516847728703+0.6710117690744191j'
+      - -7
+      - !!python/complex '-9.858888023048836+0.13710549060310506j'
+      - 7.226042133951609
+    - - !!python/complex '7.0502067719548265+0.6628539898271706j'
+      - !!python/complex '9.252487761096111+0.29854018381257375j'
+      - !!python/complex '-6.462995304230401+0.6096371516065304j'
+      - !!python/complex '7.1931035172866125+0.3468696935632476j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id003
+    - - 1.8758842338794097
+      - !!python/complex '-1.087415583889014+0.35865572289267256j'
+      - !!python/complex '-4.015899631324485+0.5297799378113562j'
+      - 2
+    - - -3
+      - 5
+      - 5
+      - !!python/complex '3.9585549173509698+0.25760552902566936j'
+    - - !!python/complex '7.327329920044035+0.3032841679516365j'
+      - 9.987049881080347
+      - !!python/complex '4.015461110517399+0.6963825028707137j'
+      - !!python/complex '-9.892199007299778+0.6925228486863438j'
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x) < 5'
+    - *id004
+    - - -1.1270174479087416
+      - -0.6504485187429065
+      - !!python/complex '-5.4736154643077235+0.6215615226510672j'
+      - 5.796477433979579
+    - - 7.471863501340017
+      - -7
+      - -9
+      - -1
+    - - 4.105537364439182
+      - -8
+      - -2.8639379146640995
+      - !!python/complex '-0.42356743836373656+0.396556363264318j'
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

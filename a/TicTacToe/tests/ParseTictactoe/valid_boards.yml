@@ -1,0 +1,3010 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.equal_value ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - -1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: ')g)g&
+
+      G>G>G
+
+      ~g~g)
+
+      G>G>G
+
+      ~g~g&'
+    separators: gG>
+    symbols: ~)&
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - JpCkKEnIqWdcs.tictactoe
+  - contents: '~.~.~
+
+      J9J9J
+
+      ~.~.~
+
+      J9J9J
+
+      ~.~.~'
+    separators: .J9
+    symbols: ~;g
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: 'U0U0U
+
+      00000
+
+      U0U0U
+
+      00000
+
+      U0U0U'
+    separators: '000'
+    symbols: U0}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - 1
+      - 1
+      - 1
+      - -1
+      - -1
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - AFS.tictactoe
+  - contents: ',1~1~
+
+      51515
+
+      ~1~1,
+
+      51515
+
+      ,1~1,'
+    separators: '151'
+    symbols: :~,
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BKL.tictactoe
+  - contents: '~OvO\
+
+      0;0;0
+
+      vO\Ov
+
+      0;0;0
+
+      vO~Ov'
+    separators: O0;
+    symbols: v\~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BJfRBmNFiPebENrDfNthP.tictactoe
+  - contents: 'ututu
+
+      PGPGP
+
+      ututu
+
+      PGPGP
+
+      ututu'
+    separators: tPG
+    symbols: u}V
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - -1
+      - 0
+      - -1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - QXMv.tictactoe
+  - contents: 'r>.>r
+
+      3M3M3
+
+      r>r>s
+
+      3M3M3
+
+      r>s>.'
+    separators: '>3M'
+    symbols: r.s
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - Ej.tictactoe
+  - contents: 'p1p1p
+
+      1"1"1
+
+      p1p1p
+
+      1"1"1
+
+      p1u1p'
+    separators: 11"
+    symbols: pu~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - -1
+      - 1
+      - 1
+      - 1
+      - -1
+      - -1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BC.tictactoe
+  - contents: '_3$3_
+
+      72727
+
+      }3}3}
+
+      72727
+
+      _3_3}'
+    separators: '372'
+    symbols: $}_
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - -1
+      - -1
+      - 1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ZfXlye.tictactoe
+  - contents: 'FwcwF
+
+      XQXQX
+
+      FwFww
+
+      XQXQX
+
+      wwcwc'
+    separators: wXQ
+    symbols: Fcw
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - zYqd.tictactoe
+  - contents: '}1}1~
+
+      )2)2)
+
+      }1}1}
+
+      )2)2)
+
+      }1}1}'
+    separators: 1)2
+    symbols: '}~,'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 1
+      - -1
+      - 1
+      - -1
+      - -1
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - MMDBB.tictactoe
+  - contents: '[1[1[
+
+      <2<2<
+
+      O1[1O
+
+      <2<2<
+
+      O1O1D'
+    separators: 1<2
+    symbols: D[O
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - PFCB.tictactoe
+  - contents: '~6~6;
+
+      ?4?4?
+
+      ~6~6~
+
+      ?4?4?
+
+      ~6~6~'
+    separators: 6?4
+    symbols: ~;g
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - -1
+      - -1
+      - 1
+      - -1
+      - 1
+      - 1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BBUWiEaVhrTGVhHA.tictactoe
+  - contents: 'lE&El
+
+      T7T7T
+
+      lE&El
+
+      T7T7T
+
+      &E&E&'
+    separators: ET7
+    symbols: ~&l
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - -1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: ',1,1^
+
+      "5"5"
+
+      t1^1t
+
+      "5"5"
+
+      t1^1^'
+    separators: 1"5
+    symbols: ^t,
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - HHW.tictactoe
+  - contents: '`7}7}
+
+      {1{1{
+
+      }7~7}
+
+      {1{1{
+
+      }7}7}'
+    separators: 7{1
+    symbols: '}~`'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - sMBCAoGd.tictactoe
+  - contents: 'G1F1F
+
+      .6.6.
+
+      F1F1F
+
+      .6.6.
+
+      F1K1K'
+    separators: '1.6'
+    symbols: FKG
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - aGX.tictactoe
+  - contents: 'IbIbI
+
+      Q6Q6Q
+
+      IbIbI
+
+      Q6Q6Q
+
+      IbIbI'
+    separators: bQ6
+    symbols: IP}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 0
+      - -1
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - bLTuzWAtoGU.tictactoe
+  - contents: '8R8R5
+
+      B|B|B
+
+      AR5R5
+
+      B|B|B
+
+      5R5RA'
+    separators: RB|
+    symbols: 58A
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - yuyh.tictactoe
+  - contents: 'DqDqD
+
+      zEzEz
+
+      DqDqk
+
+      zEzEz
+
+      DqDqD'
+    separators: qzE
+    symbols: Dkl
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ABA.tictactoe
+  - contents: '0M2M2
+
+      M1M1M
+
+      2M2M2
+
+      M1M1M
+
+      2M2M2'
+    separators: MM1
+    symbols: 20!
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: '*0*0*
+
+      00000
+
+      *0*0*
+
+      00000
+
+      *0*0*'
+    separators: '000'
+    symbols: '*}0'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - s.tictactoe
+  - contents: 'mJmJF
+
+      Z^Z^Z
+
+      mJmJm
+
+      Z^Z^Z
+
+      mJ_Jm'
+    separators: JZ^
+    symbols: mF_
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - -1
+      - -1
+      - 1
+      - -1
+      - 1
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - udVg.tictactoe
+  - contents: '"/"/D
+
+      XSXSX
+
+      D/"/D
+
+      XSXSX
+
+      "/"/D'
+    separators: /XS
+    symbols: 2"D
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - -1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ACFCBxwe.tictactoe
+  - contents: '{U;U{
+
+      41414
+
+      JU{U{
+
+      41414
+
+      ;U{U{'
+    separators: U41
+    symbols: '{;J'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 1
+      - -1
+      - -1
+      - 1
+      - -1
+      - -1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - iCEDAgfrFlSDeUDm.tictactoe
+  - contents: 'DY}Y}
+
+      [![![
+
+      SYSY}
+
+      [![![
+
+      SYSY}'
+    separators: Y[!
+    symbols: D}S
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BC.tictactoe
+  - contents: 'popop
+
+      13131
+
+      popo}
+
+      13131
+
+      popop'
+    separators: o13
+    symbols: p}q
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 1
+      - -1
+      - 0
+      - 1
+      - 0
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - VWRrR.tictactoe
+  - contents: 'T{g{}
+
+      {G{G{
+
+      g{T{}
+
+      {G{G{
+
+      T{}{g'
+    separators: '{{G'
+    symbols: T}g
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+      - 0
+      - 0
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - AVgMq.tictactoe
+  - contents: 'IiIiI
+
+      GhGhG
+
+      Ii/iI
+
+      GhGhG
+
+      IiIiP'
+    separators: iGh
+    symbols: IP/
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 0
+      - 0
+      - 1
+      - -1
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xYhA.tictactoe
+  - contents: '~FsFs
+
+      JFJFJ
+
+      ~FoFs
+
+      JFJFJ
+
+      sFsFs'
+    separators: FJF
+    symbols: s~o
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - PWEWIrlUAdTlv.tictactoe
+  - contents: 'F[F[F
+
+      ZjZjZ
+
+      A[F[F
+
+      ZjZjZ
+
+      F[F[F'
+    separators: '[Zj'
+    symbols: FA&
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 1
+      - -1
+      - 0
+      - 0
+      - 1
+      - -1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - M.tictactoe
+  - contents: '''>~>~
+
+      E.E.E
+
+      ,>''>''
+
+      E.E.E
+
+      ~>,>,'
+    separators: '>E.'
+    symbols: '''~,'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - -1
+      - 1
+      - -1
+      - 0
+      - -1
+      - -1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - nXwpSQqni.tictactoe
+  - contents: '}''}''t
+
+      =w=w=
+
+      }''t''$
+
+      =w=w=
+
+      t''t''}'
+    separators: '''=w'
+    symbols: $}t
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - HDIQNWkfzsX.tictactoe
+  - contents: 'Z1Z1F
+
+      E1E1E
+
+      Z1Z1Z
+
+      E1E1E
+
+      Z1Z1Z'
+    separators: 1E1
+    symbols: ZFe
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 1
+      - 0
+      - -1
+      - 0
+      - 1
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - qKDBABoL.tictactoe
+  - contents: '}1~1O
+
+      Z2Z2Z
+
+      }1~1}
+
+      Z2Z2Z
+
+      O1O1}'
+    separators: 1Z2
+    symbols: '}O~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - -1
+      - 1
+      - -1
+      - 1
+      - 1
+      - -1
+      - 1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - LFRqv.tictactoe
+  - contents: 'zfzf5
+
+      pHpHp
+
+      zf5f5
+
+      pHpHp
+
+      zf5f5'
+    separators: fpH
+    symbols: Z5z
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - glZoGzQgpFMuNKixWJKzKTtnh.tictactoe
+  - contents: '{]{]{
+
+      )&)&)
+
+      {]{]{
+
+      )&)&)
+
+      {]{]{'
+    separators: '])&'
+    symbols: '{sY'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - -1
+      - -1
+      - 1
+      - 1
+      - 1
+      - -1
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - uTOaPlgL.tictactoe
+  - contents: 'ukfkf
+
+      gwgwg
+
+      ukuku
+
+      gwgwg
+
+      fkukf'
+    separators: kgw
+    symbols: ouf
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - -1
+      - 0
+      - -1
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - uXPTZsvTNwXkAzYMBXCKwBMWsqrBBnIRufgaG.tictactoe
+  - contents: 'mqmq{
+
+      <R<R<
+
+      mqUqm
+
+      <R<R<
+
+      Uqmq{'
+    separators: q<R
+    symbols: m{U
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: '}0}0}
+
+      00000
+
+      }0}0}
+
+      00000
+
+      }0}0}'
+    separators: '000'
+    symbols: '}08'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - 0
+      - 1
+      - -1
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: 'S1n1n
+
+      10101
+
+      %1S1%
+
+      10101
+
+      n1n1n'
+    separators: '110'
+    symbols: n%S
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BBEY.tictactoe
+  - contents: 'PSPSP
+
+      <U<U<
+
+      PSPSP
+
+      <U<U<
+
+      PSPSP'
+    separators: S<U
+    symbols: P}>
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ODrjnz.tictactoe
+  - contents: 'mQmQm
+
+      c>c>c
+
+      mQmQm
+
+      c>c>c
+
+      xQ}Qm'
+    separators: Qc>
+    symbols: m}x
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - 1
+      - 0
+      - 1
+      - 0
+      - -1
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - WcB.tictactoe
+  - contents: ';)()(
+
+      "`"`"
+
+      u)()u
+
+      "`"`"
+
+      ;)u);'
+    separators: )"`
+    symbols: u(;
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '01010
+
+      `D`D`
+
+      0101:
+
+      `D`D`
+
+      01010'
+    separators: 1`D
+    symbols: 0:~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '^1^1^
+
+      E2E2E
+
+      ^1^13
+
+      E2E2E
+
+      ^1^1^'
+    separators: 1E2
+    symbols: ^3.
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: '}0}0}
+
+      00000
+
+      }0}0}
+
+      00000
+
+      }0}0}'
+    separators: '000'
+    symbols: '}0~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - -1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BAC.tictactoe
+  - contents: 'CwSwC
+
+      OOOOO
+
+      `wCwC
+
+      OOOOO
+
+      CwCwC'
+    separators: wOO
+    symbols: CS`
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - -1
+      - 1
+      - 0
+      - 1
+      - 1
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - bnrwgZ.tictactoe
+  - contents: 'N]N]k
+
+      aaaaa
+
+      A]N]A
+
+      aaaaa
+
+      A]k]N'
+    separators: ']aa'
+    symbols: NAk
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ZJECB.tictactoe
+  - contents: '81~18
+
+      I3I3I
+
+      81818
+
+      I3I3I
+
+      81818'
+    separators: 1I3
+    symbols: 8~Y
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - lv.tictactoe
+  - contents: '''=''=''
+
+      1u1u1
+
+      ''=9=''
+
+      1u1u1
+
+      ''=''='''
+    separators: =1u
+    symbols: '''9~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - -1
+      - 1
+      - 1
+      - -1
+      - 1
+      - 1
+      - -1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '@6~6@
+
+      5P5P5
+
+      @6~6@
+
+      5P5P5
+
+      @6~6~'
+    separators: 65P
+    symbols: V@~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 0
+      - -1
+      - 0
+      - 1
+      - -1
+      - 1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xPmBXMBZDj.tictactoe
+  - contents: 'F~W~F
+
+      gigig
+
+      W~F~K
+
+      gigig
+
+      W~K~K'
+    separators: ~gi
+    symbols: FKW
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - -1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - E.tictactoe
+  - contents: 'qFqFq
+
+      ,k,k,
+
+      qFRFf
+
+      ,k,k,
+
+      qFqFq'
+    separators: F,k
+    symbols: qRf
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - CBBBnZZtB.tictactoe
+  - contents: '{1{1{
+
+      41414
+
+      {1{1{
+
+      41414
+
+      {1{1Q'
+    separators: '141'
+    symbols: '{Qf'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - SHui.tictactoe
+  - contents: 'B3B3B
+
+      aKaKa
+
+      B3B3B
+
+      aKaKa
+
+      B3B3B'
+    separators: 3aK
+    symbols: B.Q
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - -1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - LmJv.tictactoe
+  - contents: 'FPFPF
+
+      9#9#9
+
+      gPFPF
+
+      9#9#9
+
+      FPSPF'
+    separators: P9#
+    symbols: FSg
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - -1
+      - 1
+      - 1
+      - -1
+      - 1
+      - -1
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - VlCPLX.tictactoe
+  - contents: 'b!p!b
+
+      `x`x`
+
+      1!1!b
+
+      `x`x`
+
+      1!b!1'
+    separators: '!`x'
+    symbols: p1b
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 1
+      - -1
+      - -1
+      - -1
+      - -1
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ULygbNs.tictactoe
+  - contents: '7s7s7
+
+      e0e0e
+
+      `s`s`
+
+      e0e0e
+
+      `s7sQ'
+    separators: se0
+    symbols: Q7`
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '@1j1j
+
+      10101
+
+      j1j1j
+
+      10101
+
+      @1j1~'
+    separators: '110'
+    symbols: j@~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '~$}$#
+
+      $`$`$
+
+      #$#$#
+
+      $`$`$
+
+      #$#$#'
+    separators: $$`
+    symbols: '#}~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - AHBHD.tictactoe
+  - contents: '6m6m6
+
+      ''1''1''
+
+      6m6m6
+
+      ''1''1''
+
+      6m6m6'
+    separators: m'1
+    symbols: 6$/
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - iJFtLDaFxmyXAAbdr.tictactoe
+  - contents: '2nUn"
+
+      /`/`/
+
+      2n"n2
+
+      /`/`/
+
+      2nUn2'
+    separators: n/`
+    symbols: 2"U
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - 1
+      - 1
+      - 1
+      - -1
+      - 1
+      - -1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - u.tictactoe
+  - contents: ',A)A)
+
+      *k*k*
+
+      )A)A,
+
+      *k*k*
+
+      )A,A,'
+    separators: A*k
+    symbols: a),
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - -1
+      - -1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - nbDN.tictactoe
+  - contents: '}\}\f
+
+      8z8z8
+
+      f\~\}
+
+      8z8z8
+
+      }\}\~'
+    separators: \8z
+    symbols: '}~f'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - -1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - TA.tictactoe
+  - contents: 'v3o3o
+
+      G:G:G
+
+      v3c3v
+
+      G:G:G
+
+      c3c3o'
+    separators: '3G:'
+    symbols: vco
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: '>1>1>
+
+      10101
+
+      }1>1>
+
+      10101
+
+      >1>1>'
+    separators: '110'
+    symbols: '>}~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - -1
+      - 0
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xgOqU.tictactoe
+  - contents: 'rzRzR
+
+      zmzmz
+
+      rzrzl
+
+      zmzmz
+
+      rzlzr'
+    separators: zzm
+    symbols: rRl
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - jdl.tictactoe
+  - contents: 'H1H1~
+
+      ?5?5?
+
+      H1H1H
+
+      ?5?5?
+
+      H1H1H'
+    separators: 1?5
+    symbols: H~b
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - -1
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - u.tictactoe
+  - contents: '+W+W+
+
+      #~#~#
+
+      +W+W:
+
+      #~#~#
+
+      RW:WR'
+    separators: W#~
+    symbols: +:R
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - 1
+      - 1
+      - -1
+      - -1
+      - 1
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: 'bF}F}
+
+      g_g_g
+
+      }FbFb
+
+      g_g_g
+
+      }FmFb'
+    separators: Fg_
+    symbols: m}b
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BB.tictactoe
+  - contents: '}{}{8
+
+      [w[w[
+
+      }{}{}
+
+      [w[w[
+
+      }{}{}'
+    separators: '{[w'
+    symbols: '}8~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - MGCCu.tictactoe
+  - contents: '~q}q}
+
+      mmmmm
+
+      }q}q}
+
+      mmmmm
+
+      }q}q}'
+    separators: qmm
+    symbols: '}~f'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - umaMR.tictactoe
+  - contents: '<I<I<
+
+      >~>~>
+
+      <I<I<
+
+      >~>~>
+
+      <I<I<'
+    separators: I>~
+    symbols: <~b
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 0
+      - 0
+      - -1
+      - 0
+      - 1
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - e.tictactoe
+  - contents: 'tNtN-
+
+      ?*?*?
+
+      -NzN-
+
+      ?*?*?
+
+      tN-Nz'
+    separators: N?*
+    symbols: -tz
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - CeDWDg.tictactoe
+  - contents: '}D}D}
+
+      I1I1I
+
+      }D}Dc
+
+      I1I1I
+
+      }D}D}'
+    separators: DI1
+    symbols: '}c<'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: '}0}0}
+
+      00000
+
+      }0}0}
+
+      00000
+
+      }0}0}'
+    separators: '000'
+    symbols: '}u0'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - AB.tictactoe
+  - contents: '~Y~Y~
+
+      11111
+
+      ~Y~Y~
+
+      11111
+
+      ~Y~Y~'
+    separators: Y11
+    symbols: ~@V
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - SndNQDCyViyorU.tictactoe
+  - contents: '^i^i^
+
+      ]y]y]
+
+      ^i^i^
+
+      ]y]y]
+
+      ^i^i^'
+    separators: i]y
+    symbols: ^~y
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - -1
+      - -1
+      - -1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - w.tictactoe
+  - contents: '-!-!-
+
+      *1*1*
+
+      -!-!~
+
+      *1*1*
+
+      ~!~!~'
+    separators: '!*1'
+    symbols: F-~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - Bv.tictactoe
+  - contents: '|1|1|
+
+      1A1A1
+
+      |1|1|
+
+      1A1A1
+
+      |1;1|'
+    separators: 11A
+    symbols: '|;}'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 1
+      - -1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - tFOYaO.tictactoe
+  - contents: 'R8.8R
+
+      XiXiX
+
+      +8.8.
+
+      XiXiX
+
+      +8.8R'
+    separators: 8Xi
+    symbols: +.R
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - Paf.tictactoe
+  - contents: '(s(s(
+
+      ksksk
+
+      (s(s(
+
+      ksksk
+
+      (s(s('
+    separators: sks
+    symbols: (~@
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - B.tictactoe
+  - contents: 'T#T#T
+
+      XsXsX
+
+      T#}#T
+
+      XsXsX
+
+      T#T#T'
+    separators: '#Xs'
+    symbols: T}/
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - KJFB.tictactoe
+  - contents: 'qgqg~
+
+      :5:5:
+
+      ~g~g~
+
+      :5:5:
+
+      ~g~gy'
+    separators: g:5
+    symbols: ~qy
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - -1
+      - 0
+      - -1
+      - 1
+      - 1
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - pBBpFAB.tictactoe
+  - contents: 'W1F1]
+
+      Y1Y1Y
+
+      W1]1F
+
+      Y1Y1Y
+
+      F1]1W'
+    separators: 1Y1
+    symbols: WF]
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - UYsIkNQmzveCWvF.tictactoe
+  - contents: 'VVIVI
+
+      4M4M4
+
+      ~VIV~
+
+      4M4M4
+
+      IVIVI'
+    separators: V4M
+    symbols: I~V
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - AfsIfK.tictactoe
+  - contents: '2/2/2
+
+      H=H=H
+
+      2/2/2
+
+      H=H=H
+
+      2/2/2'
+    separators: /H=
+    symbols: 2|<
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 1
+      - 0
+      - -1
+      - 1
+      - 0
+      - -1
+      - -1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - FySH.tictactoe
+  - contents: 'PyKyK
+
+      |W|W|
+
+      Py~yK
+
+      |W|W|
+
+      Py~y~'
+    separators: y|W
+    symbols: PK~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - X.tictactoe
+  - contents: 'HJHJH
+
+      u{u{u
+
+      BJHJH
+
+      u{u{u
+
+      HJHJH'
+    separators: Ju{
+    symbols: HBk
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - kmOZ.tictactoe
+  - contents: 'r1r1r
+
+      U3U3U
+
+      r1r1r
+
+      U3U3U
+
+      r1}1r'
+    separators: 1U3
+    symbols: r}~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - FyX.tictactoe
+  - contents: '}1}1}
+
+      41414
+
+      }1}1}
+
+      41414
+
+      x1}1}'
+    separators: '141'
+    symbols: '}x~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - -1
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - BFLFAB.tictactoe
+  - contents: '}''}''Z
+
+      11111
+
+      Z''Z''Z
+
+      11111
+
+      ~''Z''Z'
+    separators: '''11'
+    symbols: Z}~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - -1
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - cAQJN.tictactoe
+  - contents: 'BGcGB
+
+      MmMmM
+
+      BG\G\
+
+      MmMmM
+
+      BGcGB'
+    separators: GMm
+    symbols: B\c
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - -1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ZNAGAAJSnrMrb.tictactoe
+  - contents: '}<<<;
+
+      IaIaI
+
+      }<}<}
+
+      IaIaI
+
+      }<}<;'
+    separators: <Ia
+    symbols: '};<'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 1
+      - -1
+      - 0
+      - 1
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - DYEz.tictactoe
+  - contents: '-3-3-
+
+      P|P|P
+
+      ~3V3-
+
+      P|P|P
+
+      ~3-3-'
+    separators: 3P|
+    symbols: -~V
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.tictactoe
+  - contents: '}0}0}
+
+      00000
+
+      }0}0}
+
+      00000
+
+      }0}0}'
+    separators: '000'
+    symbols: '}0~'
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - LzxSsVzMYqWmcxjG.tictactoe
+  - contents: 'KYKYN
+
+      Y:Y:Y
+
+      KYKYK
+
+      Y:Y:Y
+
+      KYKYK'
+    separators: 'YY:'
+    symbols: KN~
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - 0
+      - 1
+      - 0
+      - -1
+      - 1
+      - 0
+      - -1
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - DZgoDxPmeeUHbsidRanBmFALj.tictactoe
+  - contents: 'DR~RD
+
+      w1w1w
+
+      <R~RD
+
+      w1w1w
+
+      <RDR~'
+    separators: Rw1
+    symbols: D~<
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - -1
+      - -1
+      - 1
+      - 1
+      - 1
+      - 0
+      - -1
+      - 0
+      - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - GRXJlZJyZ.tictactoe
+  - contents: 'b9b9~
+
+      xGxGx
+
+      ~9~9n
+
+      xGxGx
+
+      b9n9~'
+    separators: 9xG
+    symbols: n~b
+  raises: false
+  timing: *id001
+prerequisites: {}

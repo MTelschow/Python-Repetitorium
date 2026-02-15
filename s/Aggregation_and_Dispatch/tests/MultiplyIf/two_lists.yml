@@ -1,0 +1,399 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+  ? !!python/name:pytest_nbgrader.assertions.equal_types ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - []
+    - []
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 5.511532596172629
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 5.511532596172629
+    - - -7.482391059255982
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 9.204378256940435
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -1.7197682194900472
+      - -3.6838125201274563
+    - - -6.081937363873335
+      - 9.204378256940435
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 4.547396930898175
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 4.547396930898175
+      - -4.410375055183239
+      - -4.953354896109168
+    - - -0.5091364628293937
+      - -8.434970124163108
+      - -2.1242110567677503
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 998.8015588403798
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 9.814650536585312
+      - 1.4907653499583948
+      - -4.818868023171082
+      - 4.163882672302823
+    - - 5.118144239526377
+      - 6.266359354362349
+      - 2.6230481825127487
+      - 0.19487786436427423
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 4.470132381426019
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 4.470132381426019
+    - - -4.924354800519172
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1.0307588484074715
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 3.502640135970575
+      - 0.2942805450728526
+    - - -0.04778113595590161
+      - -2.7973858047645437
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 9.19188832518853
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -1.753916416743824
+      - 9.19188832518853
+      - -8.91998351188578
+    - - -1.078333047311772
+      - -2.4538916336546324
+      - -0.8972214078069869
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 3319.0163968643587
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 4.965249792903484
+      - -6.697438863196738
+      - -1.3513138464321022
+      - 9.946391836920665
+    - - 8.760241208566821
+      - -9.144008131680886
+      - 7.671612663529683
+      - -4.873608738981321
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 3.594797912958204
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -4.464870826921933
+    - - 3.594797912958204
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1.0129080442879768
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -6.027760679609887
+      - -7.411879734479803
+    - - 1.0129080442879768
+      - -1.0504979667354122
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 10563.30997472173
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 9.282136791410538
+      - 4.4748337425820335
+      - 9.298637782194051
+    - - 6.04849006964847
+      - 4.521774006538501
+      - -5.69792255617475
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 238.1566496276467
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -8.511605970643638
+      - -4.414126579356214
+      - 7.629172857515224
+      - -7.052965780209823
+    - - -6.4391074986772185
+      - 8.378807567213427
+      - -2.829506614633801
+      - 3.7256584703776436
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 9.384763058386735
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 9.384763058386735
+    - - -5.632702657447721
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 28.037925158491333
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 1.826305450357929
+      - 8.209360960319765
+    - - -5.908124614324686
+      - 1.870092571995018
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 101.26165570659664
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 4.1101101085348235
+      - 5.075534487952076
+      - -4.886111266965486
+    - - 4.854111907318748
+      - -6.614178637075846
+      - -9.636066748619081
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 372.4239954493986
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 0.3728545689504129
+      - 4.4616028814028965
+      - 9.21528309508408
+      - -7.840007953658004
+    - - 8.765057793410492
+      - 0.4168035776760317
+      - 6.649857980305282
+      - -6.79919978121783
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - []
+    - []
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 25.896102895774643
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 4.2482900075170535
+    - - 6.095653274600672
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -1.1213690703558883
+      - -6.88279841981846
+    - - -5.190864639900643
+      - -4.353253691407106
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 63.78248112810766
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - 6.522243940740401
+      - 9.779223486214335
+      - -8.395758002125307
+    - - -9.505354172314277
+      - -3.323249472772429
+      - -1.752090627935571
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 577.1315302391353
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: x > 0'
+    - - -5.149733422592931
+      - -0.5815518825788465
+      - 1.1671532761150472
+      - 8.355910389973362
+    - - 9.444640687897133
+      - 6.26567254372202
+      - -4.9163448773459
+      - -8.102300216587937
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

@@ -1,0 +1,34 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.equal_value ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/tuple
+      - Blau: 1
+        Gelb: 5
+        "Gr\xFCn": 1
+        Pink: 0
+        Rot: 1
+        "Wei\xDF": 2
+      - null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 10
+    - Blau: 6100
+      Gelb: 47000
+      "Gr\xFCn": 12000
+      Pink: 3100
+      Rot: 15800
+      "Wei\xDF": 16000
+  - {}
+  raises: false
+  timing: !!python/tuple
+  - null
+  - null
+prerequisites: {}

@@ -1,0 +1,1636 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.equal_value ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        n: null
+      - !!set
+        R: null
+        b: null
+        r: null
+      - !!set
+        p: null
+      - !!set
+        B: null
+        P: null
+        p: null
+      - !!set
+        p: null
+        r: null
+      - !!set
+        K: null
+        P: null
+        k: null
+        p: null
+      - !!set
+        p: null
+      - !!set
+        Q: null
+        b: null
+        n: null
+        q: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - kiAfzd.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|n       |8\n7|rR  b   |7\n6|  p  p  |6\n\
+      5|  p PB  |5\n4|    pp r|4\n3|k  Kp  P|3\n2| pp     |2\n1|nq  b  Q|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+      - !!set
+        p: null
+      - !!set
+        P: null
+        k: null
+        p: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        P: null
+        p: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - q.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|      K |8\n7|  p   p |7\n6|    pkP |6\n\
+      5| P P    |5\n4|       P|4\n3| p Pp p |3\n2| P p P  |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        k: null
+      - !!set
+        B: null
+        P: null
+      - !!set
+        N: null
+        R: null
+        p: null
+      - !!set
+        N: null
+        Q: null
+        p: null
+      - !!set
+        B: null
+        Q: null
+        n: null
+        p: null
+      - !!set
+        B: null
+        K: null
+        P: null
+        p: null
+      - !!set
+        p: null
+      - !!set
+        R: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - XCTuC.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| k      |8\n7|   P  B |7\n6|p  pNpNR|6\n\
+      5|NQp     |5\n4|  pQn B |4\n3|P K   pB|3\n2|    p p |2\n1| R  R   |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+        Q: null
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|KQk     |8\n7|        |7\n6|        |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        R: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+      - !!set
+        N: null
+        R: null
+      - !!set
+        B: null
+        Q: null
+        k: null
+      - !!set
+        K: null
+        N: null
+      - !!set
+        B: null
+        R: null
+      - !!set
+        N: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|    R   |7\n6|BR   Q  |6\n\
+      5|R N   N |5\n4|B Qk    |4\n3|   K   N|3\n2|    B  R|2\n1|       N|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+        r: null
+      - !!set
+        P: null
+        r: null
+      - !!set
+        n: null
+      - !!set
+        P: null
+      - !!set
+        B: null
+        k: null
+        n: null
+        p: null
+      - !!set
+        P: null
+        p: null
+        q: null
+      - !!set
+        b: null
+        p: null
+      - !!set
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - GCwGXt.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|    K  r|8\n7|PP P   r|7\n6|   n    |6\n\
+      5|    P   |5\n4|np   kB |4\n3|  q P  p|3\n2|     bp |2\n1|   b    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        K: null
+        N: null
+        Q: null
+        R: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|KQRRBBNN|8\n7|QRRBBk  |7\n6|        |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        Q: null
+        R: null
+        b: null
+        n: null
+      - !!set
+        B: null
+        K: null
+        q: null
+      - !!set
+        R: null
+        b: null
+        n: null
+      - !!set
+        B: null
+        N: null
+        Q: null
+        r: null
+      - !!set
+        B: null
+        Q: null
+        k: null
+        p: null
+      - !!set
+        N: null
+        R: null
+      - !!set
+        B: null
+        b: null
+      - !!set
+        N: null
+        q: null
+        r: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ERGuMuzipAMuYK.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| b QRR n|8\n7| KB    q|7\n6|  R  bn |6\n\
+      5|NrB    Q|5\n4| Bk   pQ|4\n3|NR      |3\n2|   B b b|2\n1|q r r NN|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        R: null
+      - !!set
+        B: null
+        N: null
+      - !!set
+        K: null
+        R: null
+      - !!set
+        B: null
+        Q: null
+      - !!set
+        N: null
+        k: null
+      - !!set
+        B: null
+      - !!set
+        R: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - b.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| R     B|8\n7| N    NB|7\n6|K   R R |6\n\
+      5|  QB    |5\n4|  N   k |4\n3|   B    |3\n2|   R    |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        R: null
+      - !!set
+        Q: null
+      - !!set
+        B: null
+        N: null
+      - !!set
+        N: null
+        k: null
+      - !!set {}
+      - !!set
+        K: null
+      - !!set {}
+      - !!set
+        R: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|     R  |8\n7|   Q    |7\n6|   B N  |6\n\
+      5| k     N|5\n4|        |4\n3|       K|3\n2|        |2\n1|      R |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        N: null
+      - !!set
+        B: null
+        N: null
+      - !!set
+        B: null
+        K: null
+        N: null
+        R: null
+        n: null
+      - !!set
+        B: null
+        N: null
+        b: null
+        k: null
+        q: null
+      - !!set
+        q: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+        r: null
+      - !!set
+        Q: null
+        R: null
+        b: null
+      - !!set
+        R: null
+        n: null
+        r: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|      N |8\n7|  N B   |7\n6|KR  Nn B|6\n\
+      5|BqN  b k|5\n4|       q|4\n3|r R BQ  |3\n2|   RbQ  |2\n1| r Rn r |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        K: null
+      - !!set
+        k: null
+      - !!set {}
+      - !!set
+        r: null
+      - !!set
+        b: null
+      - !!set
+        N: null
+      - !!set
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - kjJCjKOXOL.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|  K     |7\n6|   k    |6\n\
+      5|        |5\n4| r      |4\n3|       b|3\n2| N      |2\n1| b      |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        k: null
+        q: null
+        r: null
+      - !!set
+        p: null
+      - !!set
+        b: null
+        p: null
+      - !!set
+        K: null
+        n: null
+        p: null
+      - !!set
+        N: null
+        b: null
+        n: null
+        r: null
+      - !!set
+        P: null
+        R: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - tEQXiJjiZHmSwgeQF.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|  kqr   |7\n6|p       |6\n\
+      5|pb      |5\n4| pn  p K|4\n3|r bNn   |3\n2|    R P |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        K: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set
+        k: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|     K  |7\n6|        |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|   k    |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        b: null
+        q: null
+      - !!set {}
+      - !!set
+        P: null
+        r: null
+      - !!set {}
+      - !!set
+        B: null
+        R: null
+        k: null
+      - !!set
+        n: null
+      - !!set
+        P: null
+        n: null
+      - !!set
+        K: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xJgmXnBvd.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|qb      |8\n7|        |7\n6|   P r  |6\n\
+      5|        |5\n4|k    RBR|4\n3|   n    |3\n2|n      P|2\n1|     K  |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        K: null
+        N: null
+        Q: null
+        R: null
+      - !!set
+        Q: null
+        R: null
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|KQRRBBNN|8\n7|QRk     |7\n6|        |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        K: null
+        N: null
+        Q: null
+        R: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|KQRRBBNN|8\n7|QRRBk   |7\n6|        |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        n: null
+        r: null
+      - !!set
+        q: null
+      - !!set
+        K: null
+        b: null
+        n: null
+      - !!set
+        n: null
+        r: null
+      - !!set
+        b: null
+        r: null
+      - !!set
+        R: null
+      - !!set
+        b: null
+        k: null
+        n: null
+        r: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|n    r  |8\n7|       q|7\n6|    nbK |6\n\
+      5| n     r|5\n4|    br  |4\n3| R      |3\n2|  k rbbn|2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        N: null
+        P: null
+        k: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        K: null
+        P: null
+      - !!set {}
+      - !!set {}
+      - !!set
+        p: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xc.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|N  P   k|7\n6|Ppp     |6\n\
+      5|K P P   |5\n4|        |4\n3|        |3\n2|    p   |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        P: null
+        n: null
+      - !!set {}
+      - !!set
+        B: null
+        K: null
+        r: null
+      - !!set
+        P: null
+        b: null
+      - !!set
+        k: null
+      - !!set
+        n: null
+      - !!set
+        N: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7| Pn     |7\n6|        |6\n\
+      5|B  K   r|5\n4| P  b   |4\n3| k      |3\n2| n      |2\n1|N       |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        n: null
+      - !!set {}
+      - !!set
+        N: null
+        P: null
+      - !!set {}
+      - !!set
+        P: null
+        k: null
+      - !!set {}
+      - !!set
+        K: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|   n    |7\n6|        |6\n\
+      5|P      N|5\n4|        |4\n3| P   k  |3\n2|        |2\n1|   K    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        Q: null
+        k: null
+      - !!set
+        n: null
+        p: null
+        q: null
+      - !!set
+        r: null
+      - !!set
+        K: null
+        b: null
+      - !!set
+        b: null
+        n: null
+        r: null
+      - !!set
+        p: null
+      - !!set
+        n: null
+        p: null
+      - !!set
+        r: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|    Q  k|8\n7|   q  pn|7\n6|  r     |6\n\
+      5|   K   b|5\n4|   n  br|4\n3|  p     |3\n2| n    p |2\n1| r      |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set
+        k: null
+        p: null
+      - !!set
+        p: null
+      - !!set
+        K: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - a.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|        |7\n6|        |6\n\
+      5|        |5\n4|k   p   |4\n3| p      |3\n2|K       |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        R: null
+      - !!set {}
+      - !!set {}
+      - !!set
+        Q: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set
+        K: null
+        k: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - iNKa.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|  B   R |8\n7|        |7\n6|        |6\n\
+      5|   Q    |5\n4|        |4\n3|        |3\n2|        |2\n1|      Kk|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        n: null
+      - !!set
+        n: null
+        r: null
+      - !!set
+        b: null
+        q: null
+        r: null
+      - !!set
+        q: null
+        r: null
+      - !!set
+        K: null
+      - !!set
+        k: null
+      - !!set
+        b: null
+      - !!set
+        n: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|  n     |8\n7|  r    n|7\n6| qr  b  |6\n\
+      5|r  rq   |5\n4| K      |4\n3|     k  |3\n2|    bb b|2\n1|  n n   |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+      - !!set
+        k: null
+      - !!set {}
+      - !!set
+        N: null
+        r: null
+      - !!set
+        q: null
+        r: null
+      - !!set
+        B: null
+        R: null
+      - !!set
+        Q: null
+        b: null
+        n: null
+      - !!set
+        R: null
+        b: null
+        n: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - JrpqPLbavoTLSpXKC.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| K      |8\n7|  k     |7\n6|        |6\n\
+      5|   Nr   |5\n4|   rq   |4\n3|     R B|3\n2|b   n  Q|2\n1|    bRn |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        K: null
+        n: null
+        p: null
+      - !!set
+        n: null
+      - !!set
+        q: null
+      - !!set
+        b: null
+        q: null
+        r: null
+      - !!set
+        k: null
+      - !!set
+        Q: null
+        p: null
+        r: null
+      - !!set
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|  Kn  p |7\n6|   n    |6\n\
+      5|   q    |5\n4|   b rq |4\n3|     k  |3\n2|   Q pr |2\n1|  b     |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        K: null
+        P: null
+      - !!set
+        P: null
+        k: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - Y.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7| K     P|7\n6|   P k P|6\n\
+      5| P   P  |5\n4| P      |4\n3|P       |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        Q: null
+      - !!set
+        B: null
+        N: null
+      - !!set
+        R: null
+        q: null
+      - !!set
+        Q: null
+        b: null
+        n: null
+        q: null
+        r: null
+      - !!set
+        N: null
+        k: null
+      - !!set
+        K: null
+        R: null
+        b: null
+        r: null
+      - !!set
+        R: null
+        b: null
+        r: null
+      - !!set
+        B: null
+        n: null
+        r: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|     Q  |8\n7|N     BN|7\n6|    R q |6\n\
+      5|rb nqn Q|5\n4|k    N  |4\n3| rb   KR|3\n2|r Rb    |2\n1| r    Bn|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        N: null
+      - !!set
+        p: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        R: null
+        p: null
+      - !!set
+        k: null
+      - !!set
+        K: null
+        Q: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - HxM.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|     B  |8\n7|P      p|7\n6|     N  |6\n\
+      5|   p p  |5\n4|    p P |4\n3| Rp     |3\n2|  k     |2\n1|K  Q    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set
+        K: null
+        P: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|       k|8\n7|        |7\n6|        |6\n\
+      5|   KP   |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        b: null
+      - !!set
+        p: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+        n: null
+        p: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        p: null
+      - !!set
+        K: null
+        k: null
+        q: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - ahLgYUCfALp.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| b      |8\n7| p      |7\n6|    P   |6\n\
+      5|P       |5\n4| P Ppn  |4\n3|  pP P  |3\n2|    pp  |2\n1|    qKk |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        K: null
+        r: null
+      - !!set
+        p: null
+        q: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set
+        r: null
+      - !!set
+        k: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7| K   r  |7\n6|   qp   |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|    r   |2\n1|   k    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        r: null
+      - !!set
+        N: null
+        b: null
+        n: null
+      - !!set
+        r: null
+      - !!set
+        n: null
+        q: null
+      - !!set
+        b: null
+        r: null
+      - !!set
+        k: null
+      - !!set
+        B: null
+        K: null
+        p: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - J.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|r       |8\n7| b  N  n|7\n6|  r     |6\n\
+      5|   n q  |5\n4|     b r|4\n3|  k     |3\n2|BK  p   |2\n1|  B  QR |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        R: null
+      - !!set
+        P: null
+      - !!set
+        N: null
+      - !!set
+        K: null
+        P: null
+      - !!set
+        P: null
+      - !!set
+        B: null
+        k: null
+      - !!set
+        P: null
+      - !!set
+        R: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| R      |8\n7|   P P  |7\n6|      N |6\n\
+      5| K P  PP|5\n4|  P     |4\n3|B  k    |3\n2|  P  P  |2\n1|      R |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        N: null
+      - !!set
+        b: null
+        p: null
+        q: null
+      - !!set
+        n: null
+        p: null
+      - !!set {}
+      - !!set {}
+      - !!set
+        n: null
+        p: null
+      - !!set
+        K: null
+        k: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - xsjIouUzTCuJMngZBzvzJ.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|N       |7\n6|b p p  q|6\n\
+      5| pp pn p|5\n4|        |4\n3|        |3\n2|  n p   |2\n1|K    k  |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        r: null
+      - !!set
+        K: null
+        b: null
+        n: null
+        q: null
+        r: null
+      - !!set
+        B: null
+        N: null
+        b: null
+      - !!set
+        B: null
+        N: null
+        R: null
+        n: null
+        r: null
+      - !!set
+        N: null
+        Q: null
+        R: null
+        b: null
+        n: null
+        q: null
+      - !!set
+        Q: null
+        b: null
+      - !!set
+        B: null
+        N: null
+        b: null
+      - !!set
+        R: null
+        k: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - PetIzxPa.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|   r    |8\n7|nq  nKbr|7\n6|NB B  b |6\n\
+      5|N rnRBrR|5\n4|nqQNR b |4\n3|     b Q|3\n2|     BbN|2\n1|  k  R  |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        P: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        p: null
+      - !!set
+        P: null
+        p: null
+      - !!set
+        P: null
+        p: null
+      - !!set {}
+      - !!set
+        K: null
+        k: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - wYZzs.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|     P  |7\n6|     Pp |6\n\
+      5| p      |5\n4|p     pP|4\n3|P  Pp   |3\n2|        |2\n1|     Kk |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set {}
+      - !!set
+        K: null
+      - !!set {}
+      - !!set {}
+      - !!set
+        k: null
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|        |7\n6|K       |6\n\
+      5|        |5\n4|        |4\n3|   k    |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        q: null
+      - !!set
+        b: null
+        p: null
+      - !!set
+        B: null
+        n: null
+        p: null
+      - !!set
+        N: null
+        R: null
+        n: null
+        r: null
+      - !!set
+        b: null
+      - !!set
+        P: null
+        k: null
+        r: null
+      - !!set
+        b: null
+        p: null
+      - !!set
+        B: null
+        K: null
+        n: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|     q  |8\n7|    b  p|7\n6|p n B   |6\n\
+      5|rnN R rN|5\n4| b      |4\n3|  r P  k|3\n2|  b  p  |2\n1|K  B  n |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+      - !!set {}
+      - !!set
+        k: null
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|     K  |8\n7|        |7\n6|  k     |6\n\
+      5|        |5\n4|        |4\n3|        |3\n2|        |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        P: null
+        n: null
+        r: null
+      - !!set
+        P: null
+        R: null
+        p: null
+      - !!set
+        P: null
+      - !!set
+        B: null
+        N: null
+        P: null
+        r: null
+      - !!set
+        P: null
+        k: null
+        q: null
+      - !!set
+        b: null
+        p: null
+      - !!set
+        K: null
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - Tcu.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|Pr Pn   |7\n6|P pR    |6\n\
+      5|  PP    |5\n4|N   B rP|4\n3|  kP Pq |3\n2|   b p  |2\n1|  bK    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        q: null
+        r: null
+      - !!set
+        K: null
+        P: null
+        b: null
+      - !!set
+        R: null
+        b: null
+        k: null
+      - !!set
+        P: null
+        n: null
+      - !!set
+        R: null
+        r: null
+      - !!set
+        B: null
+        P: null
+        r: null
+      - !!set
+        N: null
+        P: null
+        Q: null
+        n: null
+        q: null
+      - !!set
+        N: null
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8| rq   r |8\n7|b  P PK |7\n6|  R k  b|6\n\
+      5| P n  n |5\n4|   r   R|4\n3| PPrBB  |3\n2|NQnnP qQ|2\n1|Nb b    |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set {}
+      - !!set
+        p: null
+      - !!set
+        k: null
+      - !!set
+        K: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - neD.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|        |7\n6|   p    |6\n\
+      5| k      |5\n4| K      |4\n3|       P|3\n2|       P|2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set {}
+      - !!set
+        R: null
+      - !!set
+        K: null
+        N: null
+        k: null
+      - !!set
+        N: null
+        Q: null
+        R: null
+      - !!set
+        R: null
+      - !!set
+        B: null
+        P: null
+      - !!set
+        B: null
+        N: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|        |7\n6|R       |6\n\
+      5|K    N k|5\n4| R N Q  |4\n3|     R  |3\n2|  B P   |2\n1|   B N B|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        B: null
+        N: null
+        b: null
+        r: null
+      - !!set
+        P: null
+        Q: null
+        n: null
+        q: null
+      - !!set
+        B: null
+        Q: null
+        r: null
+      - !!set
+        B: null
+        K: null
+      - !!set
+        R: null
+        k: null
+        n: null
+      - !!set
+        N: null
+        R: null
+        n: null
+        p: null
+      - !!set
+        R: null
+        p: null
+      - !!set
+        N: null
+        b: null
+        r: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - SoTdilqegwr.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|  b rNB |8\n7|P n  Q q|7\n6| QrB    |6\n\
+      5|      KB|5\n4|  kR  n |4\n3|Nn np R |3\n2|      Rp|2\n1|   r  bN|1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        b: null
+        n: null
+        r: null
+      - !!set
+        N: null
+        P: null
+        b: null
+      - !!set
+        P: null
+      - !!set
+        P: null
+        b: null
+        n: null
+      - !!set
+        B: null
+        P: null
+        n: null
+        q: null
+        r: null
+      - !!set
+        B: null
+        P: null
+        q: null
+        r: null
+      - !!set
+        K: null
+        N: null
+        R: null
+        k: null
+      - !!set
+        b: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|nb    nr|8\n7|b P    N|7\n6| P   P P|6\n\
+      5|P  Pnb  |5\n4|  r nBPq|4\n3|r Bq   P|3\n2|  k KRN |2\n1|  b     |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set {}
+      - !!set
+        n: null
+        p: null
+      - !!set
+        k: null
+      - !!set
+        P: null
+      - !!set
+        K: null
+        P: null
+      - !!set
+        p: null
+      - !!set
+        b: null
+        p: null
+        q: null
+      - !!set {}
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|        |8\n7|  p n   |7\n6|     k  |6\n\
+      5|   P    |5\n4|    PK  |4\n3|      p |3\n2|q  pb   |2\n1|        |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        K: null
+      - !!set
+        p: null
+      - !!set {}
+      - !!set
+        r: null
+      - !!set
+        B: null
+        b: null
+        k: null
+        n: null
+      - !!set
+        R: null
+      - !!set
+        q: null
+      - !!set
+        Q: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - RSBnBeGY.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|  K     |8\n7|p p     |7\n6|        |6\n\
+      5|   r    |5\n4|   nbBk |4\n3|    RR  |3\n2|    q   |2\n1|    Q   |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - !!set
+        R: null
+        b: null
+        n: null
+        r: null
+      - !!set
+        N: null
+        R: null
+      - !!set
+        B: null
+        Q: null
+        R: null
+        p: null
+      - !!set
+        B: null
+        N: null
+        R: null
+        b: null
+        p: null
+      - !!set
+        K: null
+        N: null
+        n: null
+        r: null
+      - !!set
+        Q: null
+        k: null
+        p: null
+      - !!set
+        N: null
+        n: null
+        p: null
+        q: null
+        r: null
+      - !!set
+        B: null
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - A.chessboard
+  - contents: "  abcdefgh \n +--------+\n8|bbr   Rn|8\n7|N    RN |7\n6|BR  Qp p|6\n\
+      5|B N  bpR|5\n4|n  K Nr |4\n3| Qkp    |3\n2|rNpqn   |2\n1|   BB   |1\n +--------+\n\
+      \  abcdefgh \n"
+  raises: false
+  timing: *id001
+prerequisites: {}

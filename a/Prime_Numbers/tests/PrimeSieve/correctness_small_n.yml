@@ -1,0 +1,46 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.equal_value ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 1
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - - false
+      - false
+      - true
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 2
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

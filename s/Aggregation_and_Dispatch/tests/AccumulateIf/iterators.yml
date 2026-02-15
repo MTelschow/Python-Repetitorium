@@ -1,0 +1,867 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+  ? !!python/name:pytest_nbgrader.assertions.equal_types ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - &id001 !!python/name:builtins.bool ''
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - &id002 !!python/name:numpy.ndarray ''
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - &id003 !!python/object/apply:numpy.dtype
+            args:
+            - b1
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - '|'
+            - null
+            - null
+            - null
+            - -1
+            - -1
+            - 0
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 5.221107274213526
+        - -7
+        - !!python/complex '-5.221590478176528+0.9499633073561873j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 5.295893532818766
+        - 0
+        - -3
+      state: 0
+  - {}
+  raises: false
+  timing: &id004 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '10.98230935975609+0.9510922763348038j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 1
+        - 3
+        - -2.824482183897124
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '9.98230935975609+0.9510922763348038j'
+        - 1
+        - !!python/complex '-5.696900471855453+0.16130055412192257j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-3.7845284531992283+0.38889306020218317j'
+        - !!python/complex '-2.710057507951778+0.7024436451418763j'
+        - 7.068274853480583
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 9.246419597108188
+        - !!python/complex '-7.308612817383857+0.8407921083325005j'
+        - -3
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-5.632205456242005+1.2257882404009388j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQEA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -3
+        - -6.71531198341653
+        - -8
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-5.381988026401784+0.34470348412959795j'
+        - !!python/complex '9.465094553576309+0.8810847562713409j'
+        - -5.223138494893641
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 11.322182550909965
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 7.322182550909964
+        - 7
+        - !!python/complex '-0.4783529091053773+0.2595780197281842j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 4
+        - -9
+        - !!python/complex '0.9467222036310228+0.05968940112581056j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-3.1384312201028735+0.6231014420160403j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 1
+        - -6.712903664435155
+        - -6
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-4.714768083985981+0.6231014420160403j'
+        - 7.008991204801326
+        - 6.576336863883108
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 2
+        - -4.619521038019162
+        - !!python/complex '-2.3635488139792566+0.9067648511232422j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 8.27713590276094
+        - !!python/complex '2.4843032416677473+0.16236761387415488j'
+        - 1.325482960988864
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '6.914219011851774+0.7101214246413786j'
+        - !!python/complex '-1.9650249397130857+0.8111931738140301j'
+        - !!python/complex '-6.389721853291858+0.713912047137218j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -8
+        - !!python/complex '6.965337781560244+0.01833289317362674j'
+        - -4.727501197755013
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -5
+        - -8
+        - -1.3305073669265852
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '3.8326481345684407+0.030591375637284868j'
+        - 6
+        - -8
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '7.0952716546350505+0.6960853686416079j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAEB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '1.940413931564875+0.4149998657073354j'
+        - 2.203601217217834
+        - -3.6081492815302294
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-8.908459415225558+0.5427523620433624j'
+        - 0
+        - !!python/complex '8.499819718947446+0.6960853686416079j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '9.847037235491756+0.8968263203546643j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQEA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '2.847037235491756+0.8968263203546643j'
+        - -1
+        - 3
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 6
+        - 2
+        - !!python/complex '7.6680882647557045+0.8084166210452429j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-8.856246351951844+0.050116766283421654j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-4.958164154577717+0.02601736684247602j'
+        - 8.472094295707462
+        - !!python/complex '-8.409438504570021+0.10152213241767849j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-3.8980821973741278+0.024099399440945635j'
+        - -7
+        - !!python/complex '8.802009579362807+0.2179961312704023j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '7.887549239257421+0.5594135510731092j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '5.898428105393696+0.250885883865707j'
+        - !!python/complex '6.455282557686603+0.26473237028145924j'
+        - -3.5209736388261237
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '1.989121133863725+0.3085276672074022j'
+        - -7.384364632258093
+        - 1
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '2.4352147408329934+0.46794309879524565j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAEA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 3.984986199206425
+        - 9.401226530522228
+        - !!python/complex '6.674063031665345+0.6031445004130767j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 7.445042811959003
+        - !!python/complex '-6.966011789689235+0.46794309879524565j'
+        - !!python/complex '4.433667533828377+0.8394939523290428j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '2.360589756608208+1.6238685044856322j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AQAB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-2.1919035798406075+0.8844350581271541j'
+        - !!python/complex '-3.2752145438078717+0.8381551834820757j'
+        - !!python/complex '5.552493336448816+0.7394334463584781j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -5
+        - 8
+        - 4
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAA
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -3.461888966491136
+        - !!python/complex '0.9474765986090945+0.4539308925967236j'
+        - !!python/complex '-4.566393261996753+0.5681945095427423j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-3.612596473515021+0.8071909263256976j'
+        - -3.246439946355302
+        - 8
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '0.43532521862426155+0.538037780401075j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAEB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 5.43064028166207
+        - 4
+        - -2
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -1
+        - !!python/complex '5.416780577966064+0.538037780401075j'
+        - -6.981455359341802
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 0.4746058151490793
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -1.4386136422976126
+        - 3
+        - -5
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 6
+        - !!python/complex '-7.9232510425363+0.9254568724784888j'
+        - 5.474605815149079
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '4.0157828116625325+0.6373617263649725j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -6.217911892927149
+        - !!python/complex '-7.673571648178581+0.6156365007148872j'
+        - !!python/complex '-4.52472185946154+0.6373617263649725j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -9
+        - !!python/complex '2.835414164872497+0.8129084204587559j'
+        - 8.540504671124072
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - 2
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - !!python/object/apply:builtins.map
+      - *id001
+      - !!python/object/apply:builtins.iter
+        args:
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - *id002
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 3
+          - *id003
+          - false
+          - !!binary |
+            AAAB
+        state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-0.6806582132385236+0.9007311533540523j'
+        - 5.734417432352006
+        - 2
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 7.309206922998809
+        - 7
+        - 0
+      state: 0
+  - {}
+  raises: false
+  timing: *id004
+prerequisites: {}

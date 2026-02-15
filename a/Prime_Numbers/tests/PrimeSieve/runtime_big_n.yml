@@ -1,0 +1,47 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.time_bounds ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - []
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 100000
+  - {}
+  raises: false
+  timing: !!python/tuple
+  - 0
+  - 0.03
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - []
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 1000000
+  - {}
+  raises: false
+  timing: !!python/tuple
+  - 0
+  - 0.30000000000000004
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - []
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 10000000
+  - {}
+  raises: false
+  timing: !!python/tuple
+  - 0
+  - 3
+prerequisites: {}

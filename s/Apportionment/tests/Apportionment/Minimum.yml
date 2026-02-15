@@ -1,0 +1,1794 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.equal_value ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 4
+      "Gr\xFCn": 1
+      Pink: 0
+      Rot: 1
+      "Wei\xDF": 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 10
+    - &id002
+      Blau: 6100
+      Gelb: 47000
+      "Gr\xFCn": 12000
+      Pink: 3100
+      Rot: 15800
+      "Wei\xDF": 16000
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 82
+      CDU: 151
+      CSU: 41
+      Die Linke: 39
+      FDP: 91
+      "Gr\xFCne": 118
+      SPD: 206
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 732
+    - &id003
+      AfD: 4803902
+      CDU: 8775471
+      CSU: 2402827
+      Die Linke: 2270906
+      FDP: 5319952
+      "Gr\xFCne": 6852206
+      SPD: 11955434
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 27
+      CDU: 52
+      FDP: 7
+      "Gr\xFCne": 22
+      SPD: 22
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 133
+    - &id004
+      AfD: 518763
+      CDU: 972876
+      FDP: 141644
+      "Gr\xFCne": 416035
+      SPD: 424587
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 8
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 29
+    - &id005
+      "Christen f\xFCr Gie\xDFen": 221
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 422
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 997
+      Liberale Hochschulgruppe: 401
+      "Links - Gr\xFCn Versiffte Liste - SDS": 647
+      RCDS - Die StudentenUNION: 269
+      "UniGr\xFCn": 1161
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 0
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 1
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 0
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 2
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 1
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 3
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 1
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 4
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 2
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 5
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 2
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 0
+      "Wei\xDF": 0
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 6
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 3
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 1
+      "Wei\xDF": 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 7
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - Blau: 0
+      Gelb: 3
+      "Gr\xFCn": 0
+      Pink: 0
+      Rot: 1
+      "Wei\xDF": 1
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 8
+    - *id002
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 151
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 118
+      SPD: 206
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 733
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 151
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 118
+      SPD: 207
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 734
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 152
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 118
+      SPD: 207
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 735
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 152
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 118
+      SPD: 207
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 736
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 152
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 119
+      SPD: 207
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 737
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 152
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 119
+      SPD: 208
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 738
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 153
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 119
+      SPD: 208
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 739
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 153
+      CSU: 41
+      Die Linke: 39
+      FDP: 92
+      "Gr\xFCne": 119
+      SPD: 208
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 740
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 83
+      CDU: 153
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 119
+      SPD: 209
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 741
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 153
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 119
+      SPD: 209
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 742
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 153
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 209
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 743
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 154
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 209
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 744
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 154
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 210
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 745
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 154
+      CSU: 42
+      Die Linke: 39
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 210
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 746
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 154
+      CSU: 42
+      Die Linke: 40
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 210
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 747
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 154
+      CSU: 42
+      Die Linke: 40
+      FDP: 93
+      "Gr\xFCne": 120
+      SPD: 211
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 748
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 84
+      CDU: 155
+      CSU: 42
+      Die Linke: 40
+      FDP: 94
+      "Gr\xFCne": 121
+      SPD: 211
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 749
+    - *id003
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 20
+      CDU: 39
+      FDP: 5
+      "Gr\xFCne": 16
+      SPD: 17
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 100
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 21
+      CDU: 39
+      FDP: 5
+      "Gr\xFCne": 16
+      SPD: 17
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 101
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 21
+      CDU: 40
+      FDP: 5
+      "Gr\xFCne": 17
+      SPD: 17
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 102
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 21
+      CDU: 40
+      FDP: 5
+      "Gr\xFCne": 17
+      SPD: 17
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 103
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 21
+      CDU: 40
+      FDP: 5
+      "Gr\xFCne": 17
+      SPD: 17
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 104
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 22
+      CDU: 41
+      FDP: 6
+      "Gr\xFCne": 17
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 105
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 22
+      CDU: 41
+      FDP: 6
+      "Gr\xFCne": 17
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 106
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 22
+      CDU: 42
+      FDP: 6
+      "Gr\xFCne": 17
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 107
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 22
+      CDU: 42
+      FDP: 6
+      "Gr\xFCne": 18
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 108
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 22
+      CDU: 42
+      FDP: 6
+      "Gr\xFCne": 18
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 109
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 23
+      CDU: 43
+      FDP: 6
+      "Gr\xFCne": 18
+      SPD: 18
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 110
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 23
+      CDU: 43
+      FDP: 6
+      "Gr\xFCne": 18
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 111
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 23
+      CDU: 44
+      FDP: 6
+      "Gr\xFCne": 18
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 112
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 23
+      CDU: 44
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 113
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 23
+      CDU: 44
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 114
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 24
+      CDU: 45
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 115
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 24
+      CDU: 45
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 19
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 116
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 24
+      CDU: 46
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 117
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 24
+      CDU: 46
+      FDP: 6
+      "Gr\xFCne": 19
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 118
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 24
+      CDU: 46
+      FDP: 6
+      "Gr\xFCne": 20
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 119
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 25
+      CDU: 47
+      FDP: 6
+      "Gr\xFCne": 20
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 120
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 25
+      CDU: 47
+      FDP: 6
+      "Gr\xFCne": 20
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 121
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 25
+      CDU: 47
+      FDP: 6
+      "Gr\xFCne": 20
+      SPD: 20
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 122
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 25
+      CDU: 48
+      FDP: 7
+      "Gr\xFCne": 20
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 123
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 26
+      CDU: 48
+      FDP: 7
+      "Gr\xFCne": 20
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 124
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 26
+      CDU: 49
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 125
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 26
+      CDU: 49
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 126
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 26
+      CDU: 49
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 127
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 26
+      CDU: 50
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 21
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 128
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 27
+      CDU: 50
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 22
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 129
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 27
+      CDU: 51
+      FDP: 7
+      "Gr\xFCne": 21
+      SPD: 22
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 130
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 27
+      CDU: 51
+      FDP: 7
+      "Gr\xFCne": 22
+      SPD: 22
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 131
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - AfD: 27
+      CDU: 51
+      FDP: 7
+      "Gr\xFCne": 22
+      SPD: 22
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 132
+    - *id004
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 2
+      Liberale Hochschulgruppe: 0
+      "Links - Gr\xFCn Versiffte Liste - SDS": 1
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 2
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 10
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 2
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 1
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 3
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 11
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 2
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 1
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 3
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 12
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 3
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 3
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 13
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 3
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 3
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 14
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 3
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 0
+      "UniGr\xFCn": 4
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 15
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 3
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 4
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 16
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 4
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 4
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 17
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 0
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 4
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 5
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 18
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 1
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 4
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 2
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 5
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 19
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 4
+      Liberale Hochschulgruppe: 1
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 5
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 20
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 5
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 5
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 21
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 5
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 6
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 22
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 5
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 6
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 23
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 5
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 6
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 24
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 6
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 3
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 7
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 25
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 6
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 7
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 26
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 6
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 7
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 27
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 6
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 7
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 28
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 2
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 8
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 29
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 2
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 1
+      "UniGr\xFCn": 8
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 30
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 4
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 8
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 31
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 9
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 32
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 7
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 9
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 33
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 8
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 9
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 34
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 8
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 9
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 35
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 8
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 10
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 36
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 1
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 8
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 10
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 37
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 9
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 5
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 10
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 38
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 3
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 9
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 10
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 39
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 9
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 11
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 40
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 9
+      Liberale Hochschulgruppe: 3
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 11
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 41
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 10
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 11
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 42
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 10
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 12
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 43
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 10
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 6
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 12
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 44
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 10
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 7
+      RCDS - Die StudentenUNION: 2
+      "UniGr\xFCn": 12
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 45
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 11
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 7
+      RCDS - Die StudentenUNION: 3
+      "UniGr\xFCn": 12
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 46
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 11
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 7
+      RCDS - Die StudentenUNION: 3
+      "UniGr\xFCn": 13
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 47
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 4
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 11
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 7
+      RCDS - Die StudentenUNION: 3
+      "UniGr\xFCn": 13
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 48
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - "Christen f\xFCr Gie\xDFen": 2
+      "DGB - Hochschulgruppe -Studierende aller F\xE4cher, vereinigt euch!": 5
+      "GR\xDCSOS - Sozial. \xD6kologisch. (Wahl-)Hessisch.": 11
+      Liberale Hochschulgruppe: 4
+      "Links - Gr\xFCn Versiffte Liste - SDS": 7
+      RCDS - Die StudentenUNION: 3
+      "UniGr\xFCn": 13
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 49
+    - *id005
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}

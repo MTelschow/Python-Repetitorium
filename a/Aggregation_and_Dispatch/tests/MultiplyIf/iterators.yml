@@ -1,0 +1,474 @@
+!!python/object:pytest_nbgrader.cases.TestSubtask
+assertions:
+  ? !!python/name:pytest_nbgrader.assertions.almost_equal ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+  ? !!python/name:pytest_nbgrader.assertions.equal_types ''
+  : !!python/tuple
+  - !!python/tuple []
+  - {}
+cases:
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-1690.019146306988+1280.8345345342673j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-1.3650824738028042+0.2145376127129729j'
+        - 4
+        - -4.599538257478319
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -9
+        - !!python/complex '-1.151247202297486+0.5219857127866041j'
+        - !!python/complex '-7.315304430804738+0.49053207233172824j'
+      state: 0
+  - {}
+  raises: false
+  timing: &id001 !!python/tuple
+  - null
+  - null
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '639.4604623787699-212.08531815166464j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -4
+        - -4
+        - 0
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-2.35377220302624+0.7806589396916842j'
+        - -3.395934308960617
+        - 5
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '4858.606290953215-398.6345135840535j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-2.653666957610475+0.5763199173151246j'
+        - -5.840184196344313
+        - 0.4776944745415236
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '7.361071169593703+0.06287846191512181j'
+        - 7.7544836823895515
+        - !!python/complex '5.343922276219221+0.663090516067879j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '9915.747333263493+1548.0477002772056j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '6.1565627707670245+0.7566767334966796j'
+        - -1.2802584598250533
+        - !!python/complex '5.398117152406868+0.33588049137684606j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -10
+        - !!python/complex '-2.9194551369945536+0.08633625865264816j'
+        - -8
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-71127.10502751396+3825.3532403426525j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -8.579468355702895
+        - 6
+        - -6.61603428269172
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -3
+        - !!python/complex '-9.94503838810825+0.5348633943215566j'
+        - -7
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-9897.470293402981-574.9194314414852j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 7.526613523800551
+        - -2.2684439141601924
+        - !!python/complex '6.210017150186481+0.3607244501260882j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 7
+        - -2.667077898174674
+        - -5
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '1517.9618885072157+134.627200246489j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -6
+        - -7.6199169655764285
+        - !!python/complex '5.376696227729127+0.08473344419617612j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '4.669951760734399+0.3401044937465668j'
+        - 1.3238239149030866
+        - !!python/complex '0.16086531325198827+0.47043939792974787j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-24091.368228190193-95.97620087292535j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-8.447048803690743+0.8198203365353544j'
+        - -5.574345197604481
+        - -3.4785341885594647
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 4
+        - 4
+        - !!python/complex '9.103464582297915+0.920150686982219j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-1815.1848048882466+488.87721464259306j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -0.09442301529456543
+        - -10
+        - !!python/complex '-4.436545244838888+0.7201165459193678j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 5
+        - !!python/complex '-8.195714724482874+0.8403030329524067j'
+        - 1.0153305747678303
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-6231.41880380786+449.9819676877458j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 4.0382556277330846
+        - !!python/complex '-7.227179540317337+0.42051536048091387j'
+        - 7
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -0.560826019839992
+        - -3.8569194583726327
+        - !!python/complex '-7.914778847191459+0.11055241360465551j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - -12948.261677721986
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 2.165321941189243
+        - 3
+        - 9.920303810046567
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -6.8393107755091265
+        - 4
+        - 7.344638654811931
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-5210.881663722762+1112.9882333791427j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -6.544053525879923
+        - !!python/complex '5.635034641040754+0.3003894281909891j'
+        - 7
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 0
+        - !!python/complex '-5.811134596736383+0.16988297681791342j'
+        - !!python/complex '-3.4486281025714987+0.8237097236942591j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-54.09536031533938-55.320635523265615j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '0.8442427214770607+0.9469890694990537j'
+        - !!python/complex '-7.821987868017547+0.3608499643732954j'
+        - 1
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -2
+        - -3.894342812617586
+        - 0.7436909024985607
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '928.9175397885209+137.36981249184385j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -3.039714175946199
+        - -4.5695183201943665
+        - !!python/complex '-2.409233016578143+0.0509324758720876j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '4.812108778387914+0.8159036602960182j'
+        - !!python/complex '-0.14901366466687438+0.43458715357616984j'
+        - -5.747855438365178
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-22462.80405106135+5205.530460586922j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-5.567979779753523+0.4295224086775308j'
+        - 5.576754586046167
+        - !!python/complex '6.40847597568763+0.006294015573391598j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-6.303044519998226+0.9636614810672962j'
+        - -8
+        - 2.264868103236137
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-5198.515983723488+15.645960333391061j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-4.172189780977056+0.19488308621119j'
+        - !!python/complex '3.48755086555199+0.152385689996136j'
+        - -4.994771205272361
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -6.996605221794816
+        - 5.101246859900415
+        - 2
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-374.33593376833+403.9443778510037j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-6.76845108063921+0.7426966900432018j'
+        - !!python/complex '-0.745831990841649+0.8656855465361432j'
+        - -1.8229673078783675
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 4
+        - !!python/complex '4.842319336400508+0.7095881175906397j'
+        - 1.9834585430692677
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '630.4245644002337-109.50369991906591j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 2
+        - -4
+        - !!python/complex '-3.018343034128813+0.5242811726038794j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 4.351342754340833
+        - 6
+        - -0.6816914560860452
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '-6743.353273720714+506.705711102285j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - 8.32905749573599
+        - !!python/complex '4.6981510905151875+0.7787729706621485j'
+        - !!python/complex '-4.756914553503963+0.030963003700016034j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '-0.9135366631514792+0.3331205899415369j'
+        - -9
+        - !!python/complex '-3.8747208971242113+0.9185260896010934j'
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+- !!python/object:pytest_nbgrader.cases.TestCase
+  expected: !!python/tuple
+  - !!python/tuple
+    - !!python/complex '9548.488198064824+6297.589800693289j'
+  - {}
+  inputs: !!python/tuple
+  - !!python/tuple
+    - 'x: abs(x**2) - 1 > 0'
+    - !!python/object/apply:builtins.iter
+      args:
+      - - !!python/complex '4.938118808118316+0.821306274767493j'
+        - !!python/complex '-5.310339737167441+0.3617670402440232j'
+        - !!python/complex '1.5813510314256725+0.8358919918051515j'
+      state: 0
+    - !!python/object/apply:builtins.iter
+      args:
+      - - -5
+        - 8
+        - 6
+      state: 0
+  - {}
+  raises: false
+  timing: *id001
+prerequisites: {}
